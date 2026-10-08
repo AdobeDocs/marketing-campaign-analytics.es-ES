@@ -3,25 +3,37 @@ title: Mix Modeler Deep Dive
 description: Explore la metodología técnica subyacente a Adobe Mix Modeler, incluida la atribución multitáctil, el modelado de la combinación de marketing, el aprendizaje de transferencia y la optimización del presupuesto.
 feature: Administration
 hide: true
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: a234aebd-3855-4376-a64d-29b38411e0c5
+    internal-label: Marketing mix modeling
   - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+    internal-label: Marketing touch attribution
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 4f4fe68694c81ddb258656eb05d62ef057f200cb
+    internal-label: Artificial intelligence
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 2747
+source-wordcount: '2835'
 ht-degree: 0%
-
 ---
-
 
 # Inmersión profunda
 
 
-Adobe Mix Modeler es una plataforma de medición unificada con tecnología AI/ML que combina atribución multitáctil (MTA) y modelado de combinación de marketing (MMM) para ofrecer perspectivas de marketing precisas, escalables y preparadas para el futuro. Este artículo presenta un desglose detallado de la metodología, las opciones de diseño y las innovaciones técnicas que subyacen a Mix Modeler. Y se basa en [esta sesión de Summit de 2025](https://business.adobe.com/es/summit/2025/sessions/marketing-mix-modeling-at-adobe-learn-to-predict-s602.html){target="_blank"}, que presenta un desglose detallado de la metodología, las opciones de diseño y las innovaciones técnicas detrás de Mix Modeler.
+Adobe Mix Modeler es una plataforma de medición unificada con tecnología AI/ML que combina atribución multitáctil (MTA) y modelado de combinación de marketing (MMM) para ofrecer perspectivas de marketing precisas, escalables y preparadas para el futuro. Este artículo presenta un desglose detallado de la metodología, las opciones de diseño y las innovaciones técnicas que subyacen a Mix Modeler. Y se basa en [esta sesión de Summit de 2025](https://business.adobe.com/summit/2025/sessions/marketing-mix-modeling-at-adobe-learn-to-predict-s602.html){target="_blank"}, que presenta un desglose detallado de la metodología, las opciones de diseño y las innovaciones técnicas detrás de Mix Modeler.
 
 A medida que aumenta la complejidad del marketing, los enfoques de medición tradicionales se quedan cortos. Los datos fragmentados, las cambiantes restricciones de privacidad y la necesidad de velocidad y rigor hacen necesario reconsiderar cómo se evalúa el rendimiento de marketing. La respuesta de Adobe es Mix Modeler: un sistema integrado que utiliza el aprendizaje automático para sintetizar varias fuentes de datos y paradigmas de modelado en una estrategia coherente.
 
@@ -57,20 +69,20 @@ Los conceptos clave detrás de la atribución de múltiples contactos son:
 
   En este enfoque, una serie de señales de interés aumentan la probabilidad de conversión, cada una de ellas influida por
 
-   * exposiciones a medios anteriores,
-   * impacto de los medios de comunicación (un modelo de cómo las respuestas a la publicidad se acumulan y decaen en los mercados de consumo), y
-   * otros factores basales.
+  * exposiciones a medios anteriores,
+  * impacto de los medios de comunicación (un modelo de cómo las respuestas a la publicidad se acumulan y decaen en los mercados de consumo), y
+  * otros factores basales.
 
 
 
   Estas señales se representan como *ϴ<sub>BL</sub>* + *ϴ<sub>E,tc-t1</sub>* + *ϴ<sub>E,tc-t2</sub>* y *ϴ<sub>S, tc-t3</sub>*, donde:
 
-   * *ϴ*: ilustra los parámetros del modelo (lo que se ha aprendido del modelo).
-   * *tc*: hora de la conversión.
-   * *tc-tx: el tiempo entre la exposición y la conversión, que es relevante para el modelo.
-   * *BL*: línea de base.
-   * *E*: correo electrónico.
-   * *S*: búsqueda.
+  * *ϴ*: ilustra los parámetros del modelo (lo que se ha aprendido del modelo).
+  * *tc*: hora de la conversión.
+  * *tc-tx: el tiempo entre la exposición y la conversión, que es relevante para el modelo.
+  * *BL*: línea de base.
+  * *E*: correo electrónico.
+  * *S*: búsqueda.
 
   En el marco de modelado, el objetivo es tener en cuenta explícitamente el tiempo entre cada exposición a los medios y el momento de la conversión (*tc-tx*), reconociendo que las interacciones más recientes tienen más peso que las anteriores.
 
@@ -89,7 +101,7 @@ Los conceptos clave detrás de la atribución de múltiples contactos son:
   ![Modelo de supervivencia de tiempo discreto](/help/assets/discrete-time-survival-model.jpg)
 
   Una función de tiempo continuo modela el impacto del correo electrónico y el stock en el nivel de interés, en cualquier momento desde el momento de la exposición: *ϴ<sub>E</sub>(t;⋋)*
-Una función de tiempo discreto modela el impacto del material publicitario de correo electrónico en el nivel de interés como períodos de tiempo discretos mediante parámetros escalares: *ϴ<sub>E,i</sub> ≥ 0<sub>E,i+1</sub>*
+  Una función de tiempo discreto modela el impacto del material publicitario de correo electrónico en el nivel de interés como períodos de tiempo discretos mediante parámetros escalares: *ϴ<sub>E,i</sub> ≥ 0<sub>E,i+1</sub>*
 
 
 ### Ventajas
@@ -130,19 +142,19 @@ Los conceptos clave detrás del modelado de combinaciones de marketing son:
 * **Modelo multiplicativo**: las ventas o las conversiones son el producto de una línea de base y de multiplicadores de medios.
 
   Por lo tanto, en lugar de utilizar un modelo aditivo:
-  *Conversiones semanales = Demanda de línea de base **+**&#x200B;Multiplicador de búsqueda **+**&#x200B;Multiplicador de pantalla **+**....*
+  *Conversiones semanales = Demanda de línea de base **+**Multiplicador de la búsqueda **+**Multiplicador de la pantalla **+**....*
 utilizar un modelo multiplicativo:
-  *Conversiones semanales = Demanda de línea de base **x**&#x200B;Multiplicador de búsqueda **x**&#x200B;Multiplicador de pantalla **x**....*
+  *Conversiones semanales = Demanda de línea de base **x**Multiplicador de búsqueda **x**Multiplicador de pantalla **x**....*
 
   O en una fórmula: ** Y = ⨍<sub>BL</sub>(X<sub>factores</sub>;<sub>factores</sub>) x ⨍<sub>S</sub>(X<sub>S</sub>;<sub>S</sub>) x ⨍<sub>D</sub>(X<sub>D</sub>;<sub>D</sub>)*
 
   Por ejemplo:
 
-   * Conversiones reales por semana: 1730.
-   * Conversiones previstas por semana: 1787,5 = 1100 x 1,25 x 1,3, donde:
-      * 1100: demanda basal prevista en la semana 4, una función para los datos de factor 1 y 2 de la semana 4.
-      * 1,25: multiplicador de búsqueda predicha de la semana 4, una función de los datos de búsqueda de la semana 1 a la semana 4.
-      * 1.3: multiplicador de visualización previsto de la semana 4, una función para los datos de visualización de la semana 1 a la semana 4.
+  * Conversiones reales por semana: 1730.
+  * Conversiones previstas por semana: 1787,5 = 1100 x 1,25 x 1,3, donde:
+    * 1100: demanda basal prevista en la semana 4, una función para los datos de factor 1 y 2 de la semana 4.
+    * 1,25: multiplicador de búsqueda predicha de la semana 4, una función de los datos de búsqueda de la semana 1 a la semana 4.
+    * 1.3: multiplicador de visualización previsto de la semana 4, una función para los datos de visualización de la semana 1 a la semana 4.
 
   La diferencia anticipada entre lo que el modelo predice (1787.5) y las conversiones reales (1730) es el residual, que a menudo es pequeño en tamaño y no es algo de lo que preocuparse.
 
