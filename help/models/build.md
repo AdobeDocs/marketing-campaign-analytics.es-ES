@@ -4,30 +4,39 @@ description: Obtenga información sobre cómo crear modelos en Mix Modeler, incl
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-TQID: https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4
+TQID: 'https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
-subfeature_v2:
+    internal-label: Models
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+    internal-label: Model insights
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+    internal-label: Conversions
   - id: c89e26b6-808d-4500-8b01-450a63466999
+    internal-label: Build model
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
+    internal-label: Insights
+source-git-commit: d83e095cdcd2954b5c6cc5f4b3f32a26cf27ed9a
 workflow-type: tm+mt
-source-wordcount: 1565
-ht-degree: 8%
-
+source-wordcount: '1591'
+ht-degree: 9%
 ---
-
 # Modelos de compilación
 
 Para crear sus modelos personalizados con tecnología de IA, la interfaz proporciona un flujo de configuración de modelo guiado paso a paso.
@@ -86,19 +95,19 @@ El modelo se configura en el paso **[!UICONTROL Configure]**. La configuración 
 
    * Para cada contenedor, defina uno o más eventos.
 
-      1. Para cada evento:
+     1. Para cada evento:
 
-         1. Seleccione una métrica o dimensión de **[!UICONTROL _Seleccionar campo armonizado_]**.
+        1. Seleccione una métrica o dimensión de **[!UICONTROL _Seleccionar campo armonizado_]**.
 
-         1. Seleccione el operador apropiado: **[!UICONTROL equals]**, **[!UICONTROL not equals]**, **[!UICONTROL less than]**, **[!UICONTROL greater than]**, **[!UICONTROL starts with]**, **[!UICONTROL doesn't start with]**, **[!UICONTROL ends with]**, **[!UICONTROL doesn't end with]**, **[!UICONTROL contains]**, **[!UICONTROL doesn't contain]**, **[!UICONTROL is in]** o **[!UICONTROL is not in]**.
+        1. Seleccione el operador apropiado: **[!UICONTROL equals]**, **[!UICONTROL not equals]**, **[!UICONTROL less than]**, **[!UICONTROL greater than]**, **[!UICONTROL starts with]**, **[!UICONTROL doesn't start with]**, **[!UICONTROL ends with]**, **[!UICONTROL doesn't end with]**, **[!UICONTROL contains]**, **[!UICONTROL doesn't contain]**, **[!UICONTROL is in]** o **[!UICONTROL is not in]**.
 
-         1. Escriba o seleccione un valor en **[!UICONTROL _Escriba o seleccione el valor_]**.
+        1. Escriba o seleccione un valor en **[!UICONTROL _Escriba o seleccione el valor_]**.
 
-      1. Para agregar un evento adicional en el contenedor, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
+     1. Para agregar un evento adicional en el contenedor, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
 
-      1. Para quitar un evento del contenedor, seleccione ![Cerrar](/help/assets/icons/CrossSize75.svg).
+     1. Para quitar un evento del contenedor, seleccione ![Cerrar](/help/assets/icons/CrossSize75.svg).
 
-      1. Para filtrar usando todos o cualquiera de los múltiples eventos definidos en el contenedor, seleccione **[!UICONTROL Any of]** o **[!UICONTROL All of]**. La etiqueta cambia de **[!UICONTROL Include ... Or ...]** a **[!UICONTROL Include ... And ...]**.
+     1. Para filtrar usando todos o cualquiera de los múltiples eventos definidos en el contenedor, seleccione **[!UICONTROL Any of]** o **[!UICONTROL All of]**. La etiqueta cambia de **[!UICONTROL Include ... Or ...]** a **[!UICONTROL Include ... And ...]**.
 
    * Para agregar un contenedor de población de datos apto, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
@@ -112,10 +121,10 @@ El modelo se configura en el paso **[!UICONTROL Configure]**. La configuración 
 
    * Para agregar un conjunto de datos de factor, seleccione **[!UICONTROL Add Factor]**. Puede agregar un máximo de 30 factores a un modelo.
 
-      1. Seleccione un(a) **[!UICONTROL Factor dataset]** del menú desplegable. Los factores disponibles son los factores para los que ha definido un campo armonizado en [reglas del conjunto de datos](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
-En función del conjunto de datos seleccionado, **[!UICONTROL Factor type]** es **[!UICONTROL Internal]** o **[!UICONTROL External]**.
+     1. Seleccione un(a) **[!UICONTROL Factor dataset]** del menú desplegable. Los factores disponibles son los factores para los que ha definido un campo armonizado en [reglas del conjunto de datos](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+        En función del conjunto de datos seleccionado, **[!UICONTROL Factor type]** es **[!UICONTROL Internal]** o **[!UICONTROL External]**.
 
-      1. Seleccione **[!UICONTROL Impact on conversion]** del menú desplegable. Las opciones disponibles son: **[!UICONTROL Auto]**, **[!UICONTROL Positive]** o **[!UICONTROL Negative]**. La opción predeterminada es **[!UICONTROL Auto]**, que permite al modelo determinar el impacto del conjunto de datos de factor.
+     1. Seleccione **[!UICONTROL Impact on conversion]** del menú desplegable. Las opciones disponibles son: **[!UICONTROL Auto]**, **[!UICONTROL Positive]** o **[!UICONTROL Negative]**. La opción predeterminada es **[!UICONTROL Auto]**, que permite al modelo determinar el impacto del conjunto de datos de factor.
 
    * Para eliminar un conjunto de datos de factor, seleccione ![CrossSize200](/help/assets/icons/CrossSize400.svg).
 
@@ -151,8 +160,8 @@ Puede especificar la configuración avanzada en el paso **[!UICONTROL Advanced]*
 En la sección **[!UICONTROL Spend share]**:
 
 * Para usar las relaciones de inversión de marketing históricas para informar al modelo cuando los datos de marketing son dispersos, active **[!UICONTROL Allow spend share]**. Se recomienda esta configuración, especialmente en los siguientes casos:
-   * Un canal no tiene suficientes observaciones (por ejemplo, baja frecuencia de gasto, impresiones o clics).
-   * Está modelando medios puntiagudos pero regulares y potencialmente de alto gasto (como TV para algunas marcas), donde los datos pueden ser dispersos.
+  * Un canal no tiene suficientes observaciones (por ejemplo, baja frecuencia de gasto, impresiones o clics).
+  * Está modelando medios puntiagudos pero regulares y potencialmente de alto gasto (como TV para algunas marcas), donde los datos pueden ser dispersos.
 
   >[!NOTE]
   >
@@ -195,13 +204,13 @@ Para configurar un archivo de canal:
 
 * Para cada canal (**[!UICONTROL Name]**), defina un valor **[!UICONTROL Lag (weeks)]**, un valor **[!UICONTROL Min Lookback (weeks)]** y **[!UICONTROL Max Lookback (weeks)]**. Para cada valor:
 
-   * Use ![Agregar](/help/assets/icons/Add.svg) para aumentar un valor, ![Restar](/help/assets/icons/Subtract.svg) para disminuir un valor o escribir un valor manualmente.
+  * Use ![Agregar](/help/assets/icons/Add.svg) para aumentar un valor, ![Restar](/help/assets/icons/Subtract.svg) para disminuir un valor o escribir un valor manualmente.
 
   El total de semanas de retraso más las semanas de retrospectiva máximas por canal se limita a una octava parte de la ventana de formación configurada. Este límite permite que el modelo disponga de datos suficientes para conocer los efectos del Adstock. Por ejemplo, para una ventana de formación de dos años, el máximo de **[!UICONTROL Lag (weeks)]** y **[!UICONTROL Lookback (weeks)]** para un canal es de 13 semanas. Este límite se impone al definir los valores.
 
 * Para restablecer todos los valores predeterminados de los anuncios de canal:
 
-   * Seleccione **[!UICONTROL Reset to defaults]**.
+  * Seleccione **[!UICONTROL Reset to defaults]**.
 
 
 ## Definir opciones
@@ -250,11 +259,11 @@ Los campos armonizados seleccionados para los informes de incrementalidad granul
 
 * Seleccione **[!UICONTROL Finish]** para finalizar la configuración del modelo.
 
-   * En el cuadro de diálogo **[!UICONTROL Create instance?]**, seleccione **[!UICONTROL Ok]** para almacenar en déclencheur el primer conjunto de entrenamientos y ejecuciones de puntuación inmediatamente. Su modelo aparece con el estado ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**.
+  * En el cuadro de diálogo **[!UICONTROL Create instance?]**, seleccione **[!UICONTROL Ok]** para almacenar en déclencheur el primer conjunto de entrenamientos y ejecuciones de puntuación inmediatamente. Su modelo aparece con el estado ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**.
 
-     Seleccione **[!UICONTROL Cancel]** para cancelar.
+    Seleccione **[!UICONTROL Cancel]** para cancelar.
 
-   * Si se necesita más configuración, un contorno rojo y texto explican qué configuración adicional se requiere.
+  * Si se necesita más configuración, un contorno rojo y texto explican qué configuración adicional se requiere.
 
 * Seleccione **[!UICONTROL Back]** para volver al paso anterior.
 
