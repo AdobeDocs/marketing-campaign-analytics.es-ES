@@ -2,7 +2,7 @@
 title: Modelos De Compilación En Marketing Campaign Analytics
 description: Obtenga información sobre cómo crear modelos en Marketing Campaign Analytics, incluido cómo configurar y especificar opciones avanzadas para el modelo. Como objetivos de conversión, puntos de contacto, stock de anuncios y programación.
 feature: Models
-solution: Mix Modeler
+solution: Marketing Campaign Analytics
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 TQID: 'https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4'
 product_v2:
@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 67f7acd32f3456e71dbea0baf147bf2dc1e01980
+source-git-commit: 803bbfb863f55ef5d043c1e1592acd8c6d4bab44
 workflow-type: tm+mt
 source-wordcount: '1903'
 ht-degree: 7%
