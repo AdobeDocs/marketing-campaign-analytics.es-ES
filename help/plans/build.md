@@ -1,30 +1,34 @@
 ---
 title: Planes de compilación
-description: Obtenga información sobre cómo crear planes en Mix Modeler.
+description: Obtenga información sobre cómo crear planes en Marketing Campaign Analytics.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
 TQID: https://experienceleague.adobe.com/8p0uU5IAWbhwE9L0nVC-au5uyAh05jAJW47l0Jgucy4
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
+    internal-label: Insights
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 952
+source-wordcount: '983'
 ht-degree: 0%
-
 ---
-
 # Planes de compilación
 
-En Mix Modeler, puede crear un plan mediante el asistente de planes. En el asistente de plan, puede configurar los detalles y los presupuestos o las métricas de destino del plan y el modelo subyacente que se utilizará para el plan. Una vez que haya especificado los detalles, el presupuesto, las métricas de objetivo y el modelo, puede seguir adelante con un plan recomendado por IA o editar el gasto por canal. Tiene la opción de definir configuraciones avanzadas en ingresos promedio por conversión y costes de canal.
+{{mm-mca-rebranding}}
+
+En Marketing Campaign Analytics, puede crear un plan mediante el asistente de planes. En el asistente de plan, puede configurar los detalles y los presupuestos o las métricas de destino del plan y el modelo subyacente que se utilizará para el plan. Una vez que haya especificado los detalles, el presupuesto, las métricas de objetivo y el modelo, puede seguir adelante con un plan recomendado por IA o editar el gasto por canal. Tiene la opción de definir configuraciones avanzadas en ingresos promedio por conversión y costes de canal.
 
 Debe definir el objetivo con el que desea maximizar el plan. Este objetivo puede ser un presupuesto que se pueda gastar o un objetivo que se quiera lograr. Si el objetivo es un objetivo, además debe especificar valores para que los utilice la métrica de objetivo: conversión, ingresos, CPA o ROI.
 
-Para crear un plan, en la interfaz ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** de Mix Modeler, seleccione **[!UICONTROL Create plan]**.
+Para crear un plan, en la interfaz ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** de Marketing Campaign Analytics, seleccione **[!UICONTROL Create plan]**.
 
 
 1. En la pantalla **[!UICONTROL Plan creation]**:
@@ -44,33 +48,33 @@ Para crear un plan, en la interfaz ![PLan](/help/assets/icons/FileChart.svg) **[
 
         Esta opción le permite introducir presupuestos para uno o más intervalos de fechas.
 
-         1. En el contenedor **[!UICONTROL Optimize]**:
-            1. Seleccione una conversión en el menú desplegable **[!UICONTROL Select conversion]**.
-            1. Seleccione un modelo del menú desplegable **[!UICONTROL Select model]**.
-         1. Especifique un **[!UICONTROL Date range]**, ya sea escribiendo fechas o seleccionando un intervalo de fechas utilizando ![Calendario](/help/assets/icons/Calendar.svg).
-         1. Escriba un **[!UICONTROL Budget]**.
-Para agregar intervalos de fechas adicionales, cada uno con su presupuesto, seleccione ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
-Para eliminar un intervalo de fechas y un presupuesto asociado, seleccione ![Cerrar](/help/assets/icons/Close.svg).
-         1. Para definir un presupuesto máximo opcional en el que desea restringir el plan:
-            1. Activar **[!UICONTROL Maximize budget]**.
-            1. Especifique la cantidad del presupuesto máximo. El importe debe ser igual o superior al importe total de los presupuestos especificados para los intervalos de fechas.
+        1. En el contenedor **[!UICONTROL Optimize]**:
+           1. Seleccione una conversión en el menú desplegable **[!UICONTROL Select conversion]**.
+           1. Seleccione un modelo del menú desplegable **[!UICONTROL Select model]**.
+        1. Especifique un **[!UICONTROL Date range]**, ya sea escribiendo fechas o seleccionando un intervalo de fechas utilizando ![Calendario](/help/assets/icons/Calendar.svg).
+        1. Escriba un **[!UICONTROL Budget]**.
+           Para agregar intervalos de fechas adicionales, cada uno con su presupuesto, seleccione ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
+           Para eliminar un intervalo de fechas y un presupuesto asociado, seleccione ![Cerrar](/help/assets/icons/Close.svg).
+        1. Para definir un presupuesto máximo opcional en el que desea restringir el plan:
+           1. Activar **[!UICONTROL Maximize budget]**.
+           1. Especifique la cantidad del presupuesto máximo. El importe debe ser igual o superior al importe total de los presupuestos especificados para los intervalos de fechas.
 
 
       * **[!UICONTROL I have a target to achieve]** [!BADGE Beta]
 
         ![Destino del plan](../assets/plan-target.png)
 
-         1. En el contenedor **[!UICONTROL Optimize]**
-            1. Seleccione una conversión en el menú desplegable **[!UICONTROL Select conversion]**.
-            1. Seleccione una métrica de destino en el menú desplegable **[!UICONTROL Select target metric]**. Puede seleccionar entre **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** o **[!UICONTROL ROI]**.
-            1. Seleccione un modelo del menú desplegable **[!UICONTROL Select model]**.
-         1. Especifique un Intervalo de fechas, ya sea escribiendo fechas o seleccionando un intervalo de fechas utilizando ![Calendario](/help/assets/icons/Calendar.svg).
-         1. Introduzca un valor para la métrica de destino seleccionada. Por ejemplo, un número para **[!UICONTROL Total Conversions]**, un porcentaje para **[!UICONTROL Paid Marketing ROI]** o valores de moneda para **[!UICONTROL Paid Marketing CPA]** y **[!UICONTROL Total Revenue]**.
-Para agregar intervalos de fechas adicionales, cada uno con su métrica de destino, seleccione ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
-Para eliminar un intervalo de fechas y la métrica de destino asociada, seleccione ![Cerrar](/help/assets/icons/Close.svg).
-         1. Para definir un presupuesto máximo opcional en el que desea restringir el plan:
-            1. Activar **[!UICONTROL Maximize budget]**.
-            1. Especifique la cantidad del presupuesto máximo.
+        1. En el contenedor **[!UICONTROL Optimize]**
+           1. Seleccione una conversión en el menú desplegable **[!UICONTROL Select conversion]**.
+           1. Seleccione una métrica de destino en el menú desplegable **[!UICONTROL Select target metric]**. Puede seleccionar entre **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** o **[!UICONTROL ROI]**.
+           1. Seleccione un modelo del menú desplegable **[!UICONTROL Select model]**.
+        1. Especifique un Intervalo de fechas, ya sea escribiendo fechas o seleccionando un intervalo de fechas utilizando ![Calendario](/help/assets/icons/Calendar.svg).
+        1. Introduzca un valor para la métrica de destino seleccionada. Por ejemplo, un número para **[!UICONTROL Total Conversions]**, un porcentaje para **[!UICONTROL Paid Marketing ROI]** o valores de moneda para **[!UICONTROL Paid Marketing CPA]** y **[!UICONTROL Total Revenue]**.
+           Para agregar intervalos de fechas adicionales, cada uno con su métrica de destino, seleccione ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
+           Para eliminar un intervalo de fechas y la métrica de destino asociada, seleccione ![Cerrar](/help/assets/icons/Close.svg).
+        1. Para definir un presupuesto máximo opcional en el que desea restringir el plan:
+           1. Activar **[!UICONTROL Maximize budget]**.
+           1. Especifique la cantidad del presupuesto máximo.
 
 
    1. Seleccione **[!UICONTROL Next]**.
@@ -101,14 +105,14 @@ Para eliminar un intervalo de fechas y la métrica de destino asociada, seleccio
    * Análisis de tendencias de soporte.
    * Identificar estrategias eficaces y evitar errores al configurar los planes.
 
-   Si selecciona un período de referencia histórico, se alineará con las preferencias del patrón de gasto anterior y la funcionalidad de planificación de Mix Modeler podrá generar planes que se ajusten a sus expectativas. Estos planes deberían, en última instancia, mejorar la confianza de las partes interesadas, garantizar que los planes de marketing sean estratégicos y eficientes y que se basen en datos de rendimiento comprobados y en las necesidades empresariales.
+   Si selecciona un período de referencia histórico, se alineará con las preferencias del patrón de gasto anterior y la funcionalidad de planificación de Marketing Campaign Analytics podrá generar planes que se ajusten a sus expectativas. Estos planes deberían, en última instancia, mejorar la confianza de las partes interesadas, garantizar que los planes de marketing sean estratégicos y eficientes y que se basen en datos de rendimiento comprobados y en las necesidades empresariales.
 
    ![Selección de gastos](/help/assets/plan-spend-selection.png)
 
    1. Seleccione el **[!UICONTROL Spend pattern]**.
 
       * La opción predeterminada es **[!UICONTROL Automatic]**.
-      * Seleccione **[!UICONTROL Historical reference]** e introduzca un **[!UICONTROL Start date]** para hacer referencia a los datos de gastos de marketing anteriores que ya están disponibles para Mix Modeler. El **[!UICONTROL End date]** se determina automáticamente en función del intervalo de fechas para el cual define el patrón de gasto. La fecha de inicio propuesta es la primera fecha de gasto de marketing pasada disponible. Para indicar que ha seleccionado un período de referencia histórico no existente o no válido, verá un ![AlertRed](/help/assets/icons/AlertRed.svg).
+      * Seleccione **[!UICONTROL Historical reference]** e introduzca un **[!UICONTROL Start date]** para hacer referencia a los datos de gastos de marketing anteriores que ya están disponibles para Marketing Campaign Analytics. El **[!UICONTROL End date]** se determina automáticamente en función del intervalo de fechas para el cual define el patrón de gasto. La fecha de inicio propuesta es la primera fecha de gasto de marketing pasada disponible. Para indicar que ha seleccionado un período de referencia histórico no existente o no válido, verá un ![AlertRed](/help/assets/icons/AlertRed.svg).
 
    1. Para definir presupuestos para cada canal, escriba un valor para **[!UICONTROL Min]** y **[!UICONTROL Max]** o use los controles deslizantes.
 
@@ -127,34 +131,34 @@ Para eliminar un intervalo de fechas y la métrica de destino asociada, seleccio
 
    * Se resumen el nombre del plan, el modelo, el intervalo de fechas y el presupuesto total.
 
-   * De forma predeterminada, Mix Modeler calcula automáticamente el promedio de ingresos por conversión utilizando los datos de temporada más recientes. En **[!UICONTROL Average Revenue per conversion]** puede definir un promedio de ingresos por conversión específico.
+   * De forma predeterminada, Marketing Campaign Analytics calcula automáticamente el promedio de ingresos por conversión utilizando los datos de temporada más recientes. En **[!UICONTROL Average Revenue per conversion]** puede definir un promedio de ingresos por conversión específico.
 
-      1. Para cada intervalo de fechas del presupuesto:
+     1. Para cada intervalo de fechas del presupuesto:
 
-         1. Seleccione un intervalo de fecha en el menú desplegable **[!UICONTROL Date range]**.
-         1. Escriba un valor **[!UICONTROL Average revenue]**.
+        1. Seleccione un intervalo de fecha en el menú desplegable **[!UICONTROL Date range]**.
+        1. Escriba un valor **[!UICONTROL Average revenue]**.
 
-      1. Seleccione ![Agregar círculo](/help/assets/icons/AddCircle.svg) Agregar ingresos promedio personalizados por unidad de conversión para agregar un intervalo de fechas.
-      1. Seleccione ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) para quitar un intervalo de fecha.
+     1. Seleccione ![Agregar círculo](/help/assets/icons/AddCircle.svg) Agregar ingresos promedio personalizados por unidad de conversión para agregar un intervalo de fechas.
+     1. Seleccione ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) para quitar un intervalo de fecha.
 
      >[!NOTE]
      >
      >Si el modelo no incluye datos de ingresos históricos, debe definir un promedio de ingresos por conversión para cada intervalo de fechas especificado para el presupuesto.
      >
 
-   * De forma predeterminada, Mix Modeler calcula automáticamente los costes de canal mediante los datos estacionales históricos más recientes. En **[!UICONTROL Channel costs]** puede definir los costos de canal personalizados.
+   * De forma predeterminada, Marketing Campaign Analytics calcula automáticamente los costes de canal mediante los datos estacionales históricos más recientes. En **[!UICONTROL Channel costs]** puede definir los costos de canal personalizados.
 
-      1. Para cada canal del modelo, defina un coste de canal personalizado.
+     1. Para cada canal del modelo, defina un coste de canal personalizado.
 
-         1. Seleccione un canal del menú desplegable **[!UICONTROL Channel]**.
-         1. Para cada intervalo de fechas del presupuesto:
-            1. Seleccione un intervalo de fecha en el menú desplegable **[!UICONTROL Date range]**.
-            1. Escriba un valor **[!UICONTROL Average revenue]**.
-         1. Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom average revenue per conversion unit]** para agregar un intervalo de fechas.
-         1. Seleccione ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) para quitar un intervalo de fecha.
+        1. Seleccione un canal del menú desplegable **[!UICONTROL Channel]**.
+        1. Para cada intervalo de fechas del presupuesto:
+           1. Seleccione un intervalo de fecha en el menú desplegable **[!UICONTROL Date range]**.
+           1. Escriba un valor **[!UICONTROL Average revenue]**.
+        1. Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom average revenue per conversion unit]** para agregar un intervalo de fechas.
+        1. Seleccione ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) para quitar un intervalo de fecha.
 
-      1. Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom channel cost]** para agregar un canal.
-      1. Seleccione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para quitar un canal personalizado.
+     1. Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom channel cost]** para agregar un canal.
+     1. Seleccione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para quitar un canal personalizado.
 
 
 1. Cuando termine, seleccione **[!UICONTROL Create]**.

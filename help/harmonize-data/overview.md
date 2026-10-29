@@ -1,15 +1,20 @@
 ---
 title: Información general sobre armonizar conjuntos de datos
-description: Aprenda a armonizar los datos en Mix Modeler.
+description: Aprenda a armonizar los datos en Marketing Campaign Analytics.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-TQID: https://experienceleague.adobe.com/9ki9Q-ZAmwmiyYFt-EAaa1ybylaoMauTvoxQ9ux1IEI
+autotag-review: '2026-05-01T09:10:10.340Z'
+TQID: 'https://experienceleague.adobe.com/QFpx2-PjU-GBiyocCsL-myjLoETUJGOikkLcdaGDlGk'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
     internal-label: Conversions
@@ -29,20 +34,21 @@ role_v2:
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
     internal-label: Data quality
-autotag-review: '2026-05-01T09:10:10.340Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1389'
 ht-degree: 17%
 ---
 # Información general sobre armonizar conjuntos de datos
 
-Los datos de Mix Modeler son de diferente naturaleza según la fuente de los datos. Los datos pueden ser:
+{{mm-mca-rebranding}}
+
+Los datos de Marketing Campaign Analytics son de diferente naturaleza según la fuente de los datos. Los datos pueden ser:
 
 * datos agregados o resumidos, por ejemplo, recopilados a partir de fuentes de datos de walled garden o datos de publicidad sin conexión recopilados (como el gasto) al ejecutar una campaña de cartelera, un evento o una campaña de publicidad física,
 * datos de evento, por ejemplo, de fuentes de datos de origen. Estos datos de evento pueden ser datos recopilados a través del conector de origen de Adobe Analytics desde Adobe Analytics, o a través de la API de Experience Platform Web, Mobile SDK o Edge Network, o datos introducidos mediante conectores de origen.
 
-El servicio de armonización de Mix Modeler asimila los datos acumulados y de evento en una vista de datos coherente. Esta vista de datos es la fuente de los modelos de Mix Modeler. El servicio utiliza la granularidad más alta en los diferentes conjuntos de datos. Por ejemplo, si un conjunto de datos tiene una granularidad mensual y los demás conjuntos de datos tienen granularidad semanal y diaria, el servicio de armonización crea una vista de datos con granularidad mensual.
+El servicio de armonización de Marketing Campaign Analytics asimila los datos acumulados y de evento en una vista de datos coherente. Esta vista de datos es la fuente de los modelos de Marketing Campaign Analytics. El servicio utiliza la granularidad más alta en los diferentes conjuntos de datos. Por ejemplo, si un conjunto de datos tiene una granularidad mensual y los demás conjuntos de datos tienen granularidad semanal y diaria, el servicio de armonización crea una vista de datos con granularidad mensual.
 
 ## Factores
 
@@ -52,7 +58,7 @@ Los factores son clave para modelar la creación y usted desea comprender qué i
 
 * Los factores externos son factores que escapan al control de su organización, pero que aún pueden afectar a las conversiones que logre. Algunos ejemplos son CPI, S&amp;P 500 y más.
 
-La funcionalidad Factores de Mix Modeler utiliza un flujo de trabajo de factores armonizado. Este flujo de trabajo simplifica la administración de los factores, ofrece coherencia en todos los modelos y proporciona una experiencia intuitiva.
+La funcionalidad Factores de Marketing Campaign Analytics utiliza un flujo de trabajo de factores armonizado. Este flujo de trabajo simplifica la administración de los factores, ofrece coherencia en todos los modelos y proporciona una experiencia intuitiva.
 
 Como parte del flujo de trabajo de factores armonizados:
 
@@ -71,7 +77,7 @@ Al duplicar un modelo que utiliza el flujo de trabajo de factores basados en con
 
 ## Ejemplo de datos armonizados
 
-Imagine que tiene los siguientes conjuntos de datos disponibles para Mix Modeler.
+Imagine que tiene los siguientes conjuntos de datos disponibles para Marketing Campaign Analytics.
 
 **Conjunto de datos 1**
 
@@ -164,7 +170,7 @@ Para generar un conjunto de datos armonizado, como en el [ejemplo](#an-example-o
 
 ## Ver datos armonizados
 
-Para ver los datos armonizados, en la interfaz de Mix Modeler:
+Para ver los datos armonizados, en la interfaz de Marketing Campaign Analytics:
 
 1. Seleccione ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** en el carril izquierdo.
 

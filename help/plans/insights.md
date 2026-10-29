@@ -1,18 +1,18 @@
 ---
 title: Perspectivas del plan
-description: Obtenga información sobre cómo ver información sobre su plan y editar un plan en Mix Modeler.
+description: Obtenga información sobre cómo ver información sobre su plan y editar un plan en Marketing Campaign Analytics.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
 autotag-review: '2026-04-28T06:09:37.014Z'
-TQID: 'https://experienceleague.adobe.com/Qi-C1-9Dbi71TbUTi64xlxs1pNXijt0nasTghWiD6AM'
+TQID: 'https://experienceleague.adobe.com/K1G-WhaMSmzx0tJWgy6NrdDj5jQQRDJQjdRle7-ayJ4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
-  - id: f40f1683-8300-4054-aab8-77da06ad63ff
-    internal-label: Models
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
     internal-label: Plans
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
     internal-label: Model insights
@@ -24,13 +24,14 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1204'
 ht-degree: 0%
 ---
 # Perspectivas del plan
 
+{{mm-mca-rebranding}}
 
 En [!UICONTROL Plan insights], se crean las perspectivas del plan, que muestran [!UICONTROL Model], [!UICONTROL Data range] y [!UICONTROL Plan target] en los que se basa el plan.
 
@@ -127,14 +128,14 @@ Para editar tu plan, selecciona ![Editar](/help/assets/icons/Edit.svg) **[!UICON
    - Análisis de tendencias de soporte.
    - Identificar estrategias eficaces y evitar errores al configurar los planes.
 
-   Si selecciona un período de referencia histórico, se alineará con las preferencias del patrón de gasto anterior y la funcionalidad de planificación de Mix Modeler podrá generar planes que se ajusten a sus expectativas. Estos planes deberían, en última instancia, mejorar la confianza de las partes interesadas, garantizar que los planes de marketing sean estratégicos y eficientes y que se basen en datos de rendimiento comprobados y en las necesidades empresariales.
+   Si selecciona un período de referencia histórico, se alineará con las preferencias del patrón de gasto anterior y la funcionalidad de planificación de Marketing Campaign Analytics podrá generar planes que se ajusten a sus expectativas. Estos planes deberían, en última instancia, mejorar la confianza de las partes interesadas, garantizar que los planes de marketing sean estratégicos y eficientes y que se basen en datos de rendimiento comprobados y en las necesidades empresariales.
 
    ![Selección de gastos](/help/assets/plan-spend-selection.png)
 
    1. Seleccione el **[!UICONTROL Spend pattern]**.
 
       - La opción predeterminada es **[!UICONTROL Automatic]**.
-      - Seleccione **[!UICONTROL Historical reference]** e introduzca un **[!UICONTROL Start date]** para hacer referencia a los datos de gastos de marketing anteriores que ya están disponibles para Mix Modeler. **[!UICONTROL End date]** se determina automáticamente en función del intervalo de datos seleccionado. La fecha de inicio propuesta es la primera vez que hay datos disponibles sobre el gasto en marketing anterior. Para indicar que ha seleccionado un período de referencia histórico no existente, verá ![AlertRed](/help/assets/icons/AlertRed.svg).
+      - Seleccione **[!UICONTROL Historical reference]** e introduzca un **[!UICONTROL Start date]** para hacer referencia a los datos de gastos de marketing anteriores que ya están disponibles para Marketing Campaign Analytics. **[!UICONTROL End date]** se determina automáticamente en función del intervalo de datos seleccionado. La fecha de inicio propuesta es la primera vez que hay datos disponibles sobre el gasto en marketing anterior. Para indicar que ha seleccionado un período de referencia histórico no existente, verá ![AlertRed](/help/assets/icons/AlertRed.svg).
 
 
    1. Para modificar los presupuestos de cada canal, modifique los valores de **[!UICONTROL Min]** y **[!UICONTROL Max]** o use los controles deslizantes.
@@ -193,7 +194,7 @@ Para editar tu plan, selecciona ![Editar](/help/assets/icons/Edit.svg) **[!UICON
 
    - Se resumen el nombre del plan, el modelo, el intervalo de fechas y el presupuesto total.
 
-   - De forma predeterminada, Mix Modeler calcula automáticamente el promedio de ingresos por conversión utilizando los datos de temporada más recientes. En **[!UICONTROL Average Revenue per conversion]** puede definir un promedio de ingresos por conversión específico.
+   - De forma predeterminada, Marketing Campaign Analytics calcula automáticamente el promedio de ingresos por conversión utilizando los datos de temporada más recientes. En **[!UICONTROL Average Revenue per conversion]** puede definir un promedio de ingresos por conversión específico.
 
    1. Para cada intervalo de fechas del presupuesto:
       1. Seleccione un intervalo de fecha en el menú desplegable **[!UICONTROL Date range]**.
@@ -206,7 +207,7 @@ Para editar tu plan, selecciona ![Editar](/help/assets/icons/Edit.svg) **[!UICON
    >Si el modelo no incluye datos de ingresos históricos, debe definir un promedio de ingresos por conversión para cada intervalo de fechas especificado para el presupuesto.
    >
 
-   - De forma predeterminada, Mix Modeler calcula automáticamente los costes de canal mediante los datos estacionales históricos más recientes. En **[!UICONTROL Channel costs]** puede definir los costos de canal personalizados.
+   - De forma predeterminada, Marketing Campaign Analytics calcula automáticamente los costes de canal mediante los datos estacionales históricos más recientes. En **[!UICONTROL Channel costs]** puede definir los costos de canal personalizados.
 
    1. Para cada canal del modelo, defina el coste de canal personalizado.
       1. Seleccione un canal del menú desplegable **[!UICONTROL Channel]**.

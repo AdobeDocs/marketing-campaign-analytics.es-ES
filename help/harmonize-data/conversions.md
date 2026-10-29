@@ -1,28 +1,34 @@
 ---
 title: Conversiones
-description: Aprenda a crear conversiones para utilizarlas en la armonización de los datos en Mix Modeler.
+description: Aprenda a crear conversiones para utilizarlas en la armonización de los datos en Marketing Campaign Analytics.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-TQID: https://experienceleague.adobe.com/rjFYd9XMTc5z4frFlq41PJqh9Zim-qoHSToyZenTPXE
+autotag-review: '2026-05-01T09:15:50.061Z'
+TQID: 'https://experienceleague.adobe.com/5m8Z9cc9d42019sNXkstXDn6cOo-2yzzQWCw0VG1YrY'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
 subfeature_v2:
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T09:15:50.061Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 424
-ht-degree: 10%
-
+source-wordcount: '454'
+ht-degree: 9%
 ---
-
 # Conversiones {#conversions}
 
+{{mm-mca-rebranding}}
+
+{{mm-mca-rebranding}}
 
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_conversions_create"
@@ -36,7 +42,7 @@ Las conversiones de marketing se definen para el análisis de atribución.
 
 ## Administración de conversiones
 
-Para ver una tabla de las conversiones disponibles, en la interfaz de Mix Modeler:
+Para ver una tabla de las conversiones disponibles, en la interfaz de Marketing Campaign Analytics:
 
 1. Seleccione ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** en el carril izquierdo.
 
@@ -48,15 +54,15 @@ Las columnas de la tabla especifican detalles sobre la conversión:
 | --- | ---|
 | Nombre | Nombre de la conversión. |
 | Ingresos | La métrica de datos armonizados que se utilizará para calcular los ingresos procedentes de una conversión. |
-| Métrica de conversión | La métrica de datos armonizada que se utilizará como métrica de conversión para el análisis. |
-| Categoría | La categoría de conversión de la conversión. |
+| Métrica de conversión | La métrica de datos armonizada que se utilizará como métrica de conversión para el análisis. Indica el resultado numérico principal de la empresa, como pedidos, ingresos, número de suscripciones, etc. |
+| Categoría | La regla de conversión que se aplicará cuando se utilice una dimensión de conversión para clasificar el tipo de conversión. |
 | Creado | Fecha y hora de creación de la conversión. |
 | Última modificación | Fecha y hora de la última modificación de la conversión. |
 
 
 ## Añadir una conversión
 
-Para agregar una conversión, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** de Mix Modeler:
+Para agregar una conversión, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** de Marketing Campaign Analytics:
 
 1. Seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 
@@ -101,7 +107,7 @@ Para ver un informe de una conversión:
 
    ![Informe de vista de conversión](../assets/conversion-view-report.png)
 
-   * Para cambiar la granularidad sobre la que generar el informe, seleccione un valor del menú desplegable **[!UICONTROL Weekly]**.
+   * Para cambiar la granularidad sobre la cual generar el informe, seleccione un valor del menú desplegable **[!UICONTROL Weekly]**.
    * Para cambiar el período del que se va a realizar el informe, escriba una fecha de inicio y otra de finalización o use ![Calendario](/help/assets/icons/Calendar.svg) para definir un período en la ventana emergente del calendario.
 
 1. Seleccione **[!UICONTROL Close]** para cerrar el cuadro de diálogo.

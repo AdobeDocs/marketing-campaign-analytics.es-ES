@@ -1,14 +1,16 @@
 ---
 title: Políticas
-description: Obtenga información sobre cómo acceder a las directivas desde Mix Modeler.
+description: Obtenga información sobre cómo acceder a las directivas desde Marketing Campaign Analytics.
 feature: Administration
 exl-id: 4dba7c30-ad1e-4213-a2b0-afc55f2448a3
 autotag-review: '2026-05-01T09:17:02.907Z'
-TQID: 'https://experienceleague.adobe.com/fk6qAZS7Uymx2dzptcazBieXIJ3mGF2pjG-EDhm-Kh4'
+TQID: 'https://experienceleague.adobe.com/uTMFYn3vc4-6JJefPhgFXGwaajrWQbgr9lW0y2s5B8U'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
     internal-label: Data governance
   - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
@@ -30,16 +32,18 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 2%
 ---
 # Políticas
 
+{{mm-mca-rebranding}}
+
 Una vez que revise el flujo de trabajo para crear un modelo y enviar su configuración, [aplicación de políticas](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) comprueba si hay alguna infracción. Si se produce una infracción de directiva, aparece una ventana emergente que indica que se han infringido una o más directivas. Esta comprobación tiene por objeto garantizar que las operaciones de datos y las acciones de marketing de Experience Platform sean compatibles con las políticas de uso de datos.
 
-De forma predeterminada, Mix Modeler comprueba las infracciones de las directivas definidas de Adobe asociadas a las siguientes etiquetas y acciones de marketing:
+De forma predeterminada, Marketing Campaign Analytics comprueba las infracciones de las directivas definidas de Adobe asociadas a las siguientes etiquetas y acciones de marketing:
 
 | Nombre de política | Etiqueta asociada | Acción de marketing asociada |
 |---|---|---|
@@ -81,7 +85,7 @@ La infracción de directiva de gobernanza de datos detectada proporciona informa
 La selección de ![Privacidad](/help/assets/icons/Privacy.svg) **[!UICONTROL Policies]** en el carril izquierdo proporciona acceso a la interfaz de [!UICONTROL Policies] de Experience Platform, lo que permite administrar sus directivas, etiquetas y acciones de marketing.
 
 <!--
-Currently,  Mix Modeler does not support all of the data governance functionality offered by Experience Platform. Field level access control is supported. See [Field level access control](../harmonize-data/dataset-rules.md#field-level-access-control)
+Currently,  Marketing Campaign Analytics does not support all of the data governance functionality offered by Experience Platform. Field level access control is supported. See [Field level access control](../harmonize-data/dataset-rules.md#field-level-access-control)
 -->
 
 >[!MORELIKETHIS]

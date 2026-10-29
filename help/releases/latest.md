@@ -1,16 +1,27 @@
 ---
-title: Ver las notas de la versión actuales de Mix Modeler
-description: Últimas notas de la versión de Mix Modeler
+title: Ver las notas de la versión actuales de Marketing Campaign Analytics
+description: Últimas notas de la versión de Marketing Campaign Analytics
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-TQID: https://experienceleague.adobe.com/8o2hpkneIUMbBNEZfw9TsQLaGuPOxqF-XA2TV9cJnqc
+autotag-review: '2026-05-01T09:06:55.437Z'
+TQID: 'https://experienceleague.adobe.com/fZpl0bWBtDzOWllXsyGPErO637PaIdJ-2E-l-89JpDk'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: ca6bcd6f-f5ca-4e5f-a5ae-7dce7177bde9
     internal-label: Release notes
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -23,17 +34,25 @@ topic_v2:
     internal-label: Experimentation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-autotag-review: '2026-05-01T09:06:55.437Z'
-source-git-commit: 1e6444e672e85d9f3f666bc865d020fb67c45b09
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 6%
+source-wordcount: '583'
+ht-degree: 5%
 ---
-# Notas de la versión actuales de Mix Modeler
+# Notas de la versión actuales de Marketing Campaign Analytics
 
-**Última actualización**: 19 de agosto de 2026.
+{{mm-mca-rebranding}}
 
-Estas notas de la versión se refieren a la última versión de Mix Modeler. Las versiones de Mix Modeler funcionan con un modelo de entrega continua, que permite una cadencia de versión mensual aproximada. Por lo tanto, estas notas de la versión se actualizan, por lo que debe comprobarlas regularmente.
+**Última actualización**: 29 de octubre de 2026.
+
+Estas notas de la versión se refieren a la última versión de Marketing Campaign Analytics. Las versiones de Marketing Campaign Analytics funcionan con un modelo de entrega continua, que permite una cadencia de versión mensual aproximada. Por lo tanto, estas notas de la versión se actualizan, por lo que debe comprobarlas regularmente.
+
+## Octubre de 2026
+
+| Función | Descripción | [Inicio del despliegue](#release-strategy) | [Disponibilidad general](#release-strategy) |
+|---|---|---|---|
+| **Modelado funnel completo** | Puede habilitar el [modelado funnel completo](/help/models/overview.md#full-funnel-modeling) al generar un modelo para mostrar cómo el marketing mueve a los clientes a través de funnel. Hay una [visualización de flujo de funnel](/help/models/insights.md#funnel-flow) disponible en Información del modelo para proporcionar información sobre el funnel completo. | 29 de octubre de 2026 | 29 de octubre de 2026 |
+
 
 ## Agosto de 2026
 
@@ -69,7 +88,7 @@ Estas notas de la versión se refieren a la última versión de Mix Modeler. Las
 
 ## Estrategia de lanzamiento
 
-[!UICONTROL Mix Modeler] usa indicadores de características (también conocidos como &quot;alternadores&quot;) para controlar la visibilidad de las nuevas características, lo que permite realizar pruebas de escala controladas antes del lanzamiento final. Esta estrategia de versión incluye las siguientes fases:
+[!UICONTROL Marketing Campaign Analytics] usa indicadores de características (también conocidos como &quot;alternadores&quot;) para controlar la visibilidad de las nuevas características, lo que permite realizar pruebas de escala controladas antes del lanzamiento final. Esta estrategia de versión incluye las siguientes fases:
 
 * **Pruebas limitadas**: Una versión por fases comienza con las pruebas realizadas por los usuarios internos de Adobe. A continuación, se pone a disposición de un pequeño grupo de cuentas de cliente para garantizar que la función satisfaga las necesidades y expectativas de los clientes.
 

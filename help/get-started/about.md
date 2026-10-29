@@ -1,25 +1,25 @@
 ---
-title: Información general sobre Mix Modeler
-description: Obtenga información general sobre la funcionalidad y las capacidades de Mix Modeler.
-short-description: Obtenga información general sobre la funcionalidad y las capacidades de Mix Modeler.
+title: Información general de Marketing Campaign Analytics
+description: Obtenga información general sobre las funcionalidades y funcionalidades de Marketing Campaign Analytics.
+short-description: Obtenga información general sobre las funcionalidades y funcionalidades de Marketing Campaign Analytics.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
 autotag-review: '2026-05-01T09:14:10.130Z'
-TQID: 'https://experienceleague.adobe.com/66NcfgGeMriaUXgpJ-h2MV2PBISSE5GMz3WWuF-i2u4'
+TQID: 'https://experienceleague.adobe.com/p5U62D65U-w6VtaGOsBuJlKWxcz2p-Qgku6zq-ezNQo'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a234aebd-3855-4376-a64d-29b38411e0c5
     internal-label: Marketing mix modeling
-  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
-    internal-label: Marketing touch attribution
-  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
-    internal-label: Plans
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
     internal-label: Models
+  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+    internal-label: Marketing touch attribution
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -40,24 +40,24 @@ topic_v2:
     internal-label: Machine learning
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 3%
+source-wordcount: '786'
+ht-degree: 0%
 ---
-# Información general sobre Mix Modeler
+# Información general de Marketing Campaign Analytics
 
-Mix Modeler, con tecnología de Adobe Sensei, permite a los especialistas en marketing medir campañas y optimizar la planificación de forma integral en todos los canales: de pago, ganados y propios. Su metodología unificada mide gradualmente los puntos de contacto de marketing y los niveles agregados, a la vez que garantiza resultados totalmente coherentes.
+Marketing Campaign Analytics, con tecnología de Adobe Sensei, permite a los especialistas en marketing medir campañas y optimizar la planificación de forma integral en todos los canales: de pago, ganados y propios. Su metodología unificada mide gradualmente los puntos de contacto de marketing y los niveles agregados, a la vez que garantiza resultados totalmente coherentes.
 
-Mix Modeler proporciona el impacto incremental de todas las actividades de marketing en los resultados empresariales y de campaña a través de una aplicación de medición integral (de extremo a extremo) para el marketing digital y sin conexión.
+Marketing Campaign Analytics proporciona el impacto incremental de todas las actividades de marketing en los resultados empresariales y de campaña a través de una aplicación de medición integral (de extremo a extremo) para el marketing digital y sin conexión.
 
-Mix Modeler proporciona los siguientes tipos de perspectivas optimizadas y procesables a nivel estratégico y táctico, para que pueda entenderlas mejor:
+Marketing Campaign Analytics proporciona los siguientes tipos de perspectivas optimizadas y procesables a nivel estratégico y táctico, para que pueda entenderlas mejor:
 
 * gasto en marketing y rendimiento resultante en varios canales, y
 * niveles de inversión recomendados para lograr futuros objetivos empresariales.
 
 
-Para lograr esta funcionalidad, Mix Modeler combina lo siguiente:
+Para lograr esta funcionalidad, Marketing Campaign Analytics combina lo siguiente:
 
 * datos ascendentes (nivel de evento) y datos descendentes (nivel de agregado),
 * factores del mercado exterior y factores internos, y
@@ -70,7 +70,7 @@ El aprendizaje de transferencia bidireccional AI/ML unifica los resultados de mo
 
 ## Competencias
 
-Mix Modeler ofrece las siguientes funciones:
+Marketing Campaign Analytics ofrece las siguientes funciones:
 
 | Capacidad | Descripción |
 |---|---|
@@ -83,12 +83,12 @@ Mix Modeler ofrece las siguientes funciones:
 
 >[!MORELIKETHIS]
 >
->[Comprender el flujo de trabajo de Mix Modeler](workflow.md)
+>[Comprender el flujo de trabajo de Marketing Campaign Analytics](workflow.md)
 
 
 ### Modelado de combinación de marketing (MMM)
 
-El modelado de combinación de marketing en Mix Modeler es un análisis de aprendizaje automático compatible con la privacidad que se utiliza para medir el impacto incremental de varias tácticas de marketing y factores empresariales en las métricas de conversión. Ayuda a las empresas y a los especialistas en marketing a comprender
+El modelado de combinación de marketing en Marketing Campaign Analytics es un análisis de aprendizaje automático compatible con la privacidad que se utiliza para medir el impacto incremental de varias tácticas de marketing y factores empresariales en las métricas de conversión. Ayuda a las empresas y a los especialistas en marketing a comprender
 
 * la eficacia de sus estrategias de marketing,
 * los efectos de los factores comerciales en el comportamiento de los clientes, y
@@ -96,7 +96,7 @@ El modelado de combinación de marketing en Mix Modeler es un análisis de apren
 
 Este análisis completo permite a las empresas asignar los presupuestos de marketing de forma estratégica entre diversas líneas de negocio, regiones, canales y campañas, a la vez que proporciona perspectivas predictivas sobre el impacto comercial de eventos futuros.
 
-Las funciones de modelado de combinación de marketing de Mix Modeler son fundamentales para resolver los siguientes casos de uso:
+Las funciones de modelado de combinación de marketing de Marketing Campaign Analytics son fundamentales para resolver los siguientes casos de uso:
 
 * Informes ejecutivos: Permita que los ejecutivos comprendan el verdadero impacto incremental del marketing, tanto en su conjunto como por canal, región, SKU, etc.
 * Planificación estratégica: informar estrategias de marketing a largo plazo y establecer objetivos y puntos de referencia realistas para futuras campañas.
@@ -106,9 +106,9 @@ Las funciones de modelado de combinación de marketing de Mix Modeler son fundam
 
 ### Atribución multitáctil (MTA)
 
-La atribución multitáctil en Mix Modeler es un análisis opcional de aprendizaje automático que puede aprovechar para atribuir créditos a puntos de contacto de nivel de evento que conducen a eventos de conversión. Los especialistas en marketing utilizan esta atribución para ayudar a cuantificar el impacto de cada punto de contacto de marketing individual en los recorridos de los clientes a los que se puede realizar un seguimiento. Estos puntos de contacto de la campaña de marketing digital suelen ser clics en anuncios de visualización, envíos de correo electrónico, aperturas de correo electrónico y clics en búsquedas de pago. La atribución de múltiples contactos no puede medir la mayoría de los puntos de contacto sin conexión, como anuncios impresos, carteleras o anuncios de TV y factores empresariales. Estos puntos de contacto solo tienen datos de nivel de resumen que no se pueden vincular a los recorridos del cliente.
+La atribución multitáctil en Marketing Campaign Analytics es un análisis opcional de aprendizaje automático que puede aprovechar para atribuir créditos a puntos de contacto de nivel de evento que conducen a eventos de conversión. Los especialistas en marketing utilizan esta atribución para ayudar a cuantificar el impacto de cada punto de contacto de marketing individual en los recorridos de los clientes a los que se puede realizar un seguimiento. Estos puntos de contacto de la campaña de marketing digital suelen ser clics en anuncios de visualización, envíos de correo electrónico, aperturas de correo electrónico y clics en búsquedas de pago. La atribución de múltiples contactos no puede medir la mayoría de los puntos de contacto sin conexión, como anuncios impresos, carteleras o anuncios de TV y factores empresariales. Estos puntos de contacto solo tienen datos de nivel de resumen que no se pueden vincular a los recorridos del cliente.
 
-La atribución multitáctil de Mix Modeler admite dos categorías de puntuaciones:
+La atribución multitáctil de Marketing Campaign Analytics admite dos categorías de puntuaciones:
 
 * Puntuaciones algorítmicas, que incluyen puntuaciones incrementales e influenciadas:
   * La puntuación influenciada es la fracción de la conversión de la que es responsable cada punto de contacto de marketing.
@@ -116,13 +116,13 @@ La atribución multitáctil de Mix Modeler admite dos categorías de puntuacione
 
 * Puntuaciones basadas en reglas, que incluyen Primer contacto, Último contacto, Lineal, Forma de U y Deterioro de tiempo.
 
-Puede utilizar la capacidad de atribución multitáctil de Mix Modeler en los siguientes casos de uso:
+Puede utilizar la capacidad de atribución multitáctil de Marketing Campaign Analytics en los siguientes casos de uso:
 
 * Asignación de presupuesto de campaña: informa las decisiones de asignación de presupuesto en los canales de marketing.
 * Optimización de campañas: dentro de cada canal, es necesario comprender qué campañas, creativos y palabras clave funcionan mejor para qué SKU o geos. Esta comprensión le permite ver cada canal para que el equipo de marketing pueda optimizar sus tácticas.
 * Atribución a nivel de evento de funnel completo: Comprenda el impacto del marketing en todo el recorrido del cliente. Por ejemplo, registro gratuito en la cuenta para la conversión de pago y más allá.
 * Evaluaciones de los asociados: Evaluar la eficacia de los organismos y los asociados, sobre la base de los resultados de atribución.
 
-Consulte [Información del modelo - Atribución](../models/insights.md#attribution) sobre cómo acceder a las perspectivas de atribución multitáctil en Mix Modeler.
+Consulte [Información del modelo - Atribución](../models/insights.md#attribution) sobre cómo acceder a las perspectivas de atribución multitáctil en Marketing Campaign Analytics.
 
 
