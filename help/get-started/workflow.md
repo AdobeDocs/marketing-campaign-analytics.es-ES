@@ -69,7 +69,7 @@ ht-degree: 1%
 
 Consulte este vídeo para ver una introducción al flujo de trabajo del usuario en Marketing Campaign Analytics.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3440206/?captions=spa&learn=on)
 
 
 Un flujo de trabajo típico de Marketing Campaign Analytics consta de las siguientes actividades:
