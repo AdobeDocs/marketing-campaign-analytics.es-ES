@@ -1,33 +1,45 @@
 ---
 title: Resumen de planes
-description: Obtenga información sobre cómo ver, seleccionar y actuar sobre planes en Mix Modeler.
+description: Obtenga información sobre cómo ver, seleccionar y actuar sobre planes en Marketing Campaign Analytics.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-TQID: https://experienceleague.adobe.com/0cBg65pu0-gkk1AlWOvQHxn5RUaIRkOs1Yz7FPppcsk
 autotag-review: '2026-05-01T09:05:53.776Z'
+TQID: 'https://experienceleague.adobe.com/OZjW5A4DP1raHwQgA5RSrbyFAwEp5gKPrzezj59nnFA'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+    internal-label: Build plans
   - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+    internal-label: Compare plans
   - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+    internal-label: Plan insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Insights
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 679
+source-wordcount: '683'
 ht-degree: 0%
-
 ---
-
 # Resumen de planes
 
-Los planes de Mix Modeler le permiten asignar presupuestos por unidad de negocio y canal. La funcionalidad de planificación está integrada con los resultados de los modelos formados en función de los datos armonizados.
+{{mm-mca-rebranding}}
+
+Los planes de Marketing Campaign Analytics le permiten asignar presupuestos por unidad de negocio y canal. La funcionalidad de planificación está integrada con los resultados de los modelos formados en función de los datos armonizados.
 
 Un plan describe las inversiones discrecionales (por ejemplo, presupuestos) que una empresa tiene la intención de gastar en proyectos relacionados con el marketing durante un periodo de tiempo determinado. Estas inversiones están al servicio de KPI comunes (por ejemplo, pedidos, ingresos). Los planes pueden incluir gastos de canales como publicidad de pago, contenido web patrocinado, eventos.
 
@@ -48,12 +60,12 @@ Si un modelo que ha utilizado para su plan se puntúa en los nuevos datos, debe 
 
 ## Planes de compilación
 
-Para crear un plan, utilice el asistente de creación de planes de Mix Modeler. Consulte [Planes de compilación](build.md) para obtener más información.
+Para crear un plan, utilice el asistente de creación de planes de Marketing Campaign Analytics. Consulte [Planes de compilación](build.md) para obtener más información.
 
 
 ## Administrar planes
 
-Para ver una tabla de sus planes actuales, en la interfaz de Mix Modeler:
+Para ver una tabla de sus planes actuales, en la interfaz de Marketing Campaign Analytics:
 
 1. Seleccione ![](/help/assets/icons2/FileChart.svg) **[!UICONTROL Plans]** en el carril izquierdo.
 
@@ -100,15 +112,15 @@ Para duplicar un plan:
 - Seleccione ![Más](/help/assets/icons/More.svg) para un plan. En el menú contextual, seleccione **[!UICONTROL Duplicate]**.
 - También puede seleccionar un plan en la tabla ![SelectBox](/help/assets/icons/SelectBox.svg) y seleccionar ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** en la barra de acciones azul.
 
-Se crea un nuevo plan, con un nombre compuesto por el nombre del plan original anexado con **[!UICONTROL (Copy)] (_n_)**. Se le redirigirá automáticamente a [Creación de plan](build.md) para proporcionar detalles actualizados para el plan copiado.
+Se crea un nuevo plan, con un nombre compuesto por el nombre del plan original anexado con **[!UICONTROL (Copy)](_n_)**. Se le redirigirá automáticamente a [Creación de plan](build.md) para proporcionar detalles actualizados para el plan copiado.
 
 - Los detalles (como la descripción, el presupuesto, etc.) del plan original se copian.
 - Las restricciones presupuestarias del plan original se copian en el plan recién creado.
 - Tiene la opción de seleccionar otro modelo como base para el plan copiado.
-   - En el caso de los puntos de contacto o canales que no existen en el plan copiado, pero que no existen en el modelo recién seleccionado, cualquier restricción para estos puntos de contacto o canales se elimina del plan.
-   - Para los puntos de contacto o canales que no existen en el plan copiado, pero sí en el modelo recién seleccionado, las restricciones se definen como:
-      - un valor mínimo de `0`,
-      - un valor máximo en línea con el presupuesto del intervalo de vuelo del plan.
+  - En el caso de los puntos de contacto o canales que no existen en el plan copiado, pero que no existen en el modelo recién seleccionado, cualquier restricción para estos puntos de contacto o canales se elimina del plan.
+  - Para los puntos de contacto o canales que no existen en el plan copiado, pero sí en el modelo recién seleccionado, las restricciones se definen como:
+    - un valor mínimo de `0`,
+    - un valor máximo en línea con el presupuesto del intervalo de vuelo del plan.
 
 
 
@@ -131,6 +143,6 @@ Para eliminar varios planes:
 
 1. Seleccione varios planes.
 1. En la barra de acciones azul, seleccione ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para eliminar los planes.
-1. Seleccione **[!UICONTROL Delete]** en el cuadro de diálogo de confirmación de **[!UICONTROL Delete *x *planes]**&#x200B;para eliminar los planes. Seleccione **[!UICONTROL Cancel]**&#x200B;para cancelar.
+1. Seleccione **[!UICONTROL Delete]** en el cuadro de diálogo de confirmación de **[!UICONTROL Delete *x *planes]**para eliminar los planes. Seleccione **[!UICONTROL Cancel]**para cancelar.
 
 

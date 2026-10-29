@@ -1,34 +1,51 @@
 ---
 title: Reglas de conjuntos de datos
-description: Obtenga información sobre cómo definir reglas de conjuntos de datos para utilizarlas como parte de la armonización de los datos en Mix Modeler.
+description: Obtenga información sobre cómo definir reglas de conjuntos de datos para utilizarlas como parte de la armonización de los datos en Marketing Campaign Analytics.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-TQID: https://experienceleague.adobe.com/AHQ73zgE97hHUbZ-lW9-l0c-MKHjA50Qcj9w02MjyGM
+autotag-review: '2026-05-01T09:12:48.985Z'
+TQID: 'https://experienceleague.adobe.com/y9TAqZY49fiIesDpEQ-NO58bR2SU3hYvqk5lAlgrslA'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 subfeature_v2:
   - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
+    internal-label: Dataset rules
   - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+    internal-label: Dataset mapping
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: '2026-05-01T09:12:48.985Z'
-source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
+    internal-label: Insights
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 2161
+source-wordcount: '2169'
 ht-degree: 3%
-
 ---
-
 # Reglas de conjuntos de datos
 
-Las reglas del conjunto de datos le ayudan a asignar los campos armonizados con los campos de los datos introducidos en Mix Modeler.
+{{mm-mca-rebranding}}
+
+Las reglas del conjunto de datos le ayudan a asignar los campos armonizados con los campos de los datos introducidos en Marketing Campaign Analytics.
 
 * Para los datos agregados que ha introducido en Adobe Experience Platform, asigne uno o más de los campos de conjunto de datos disponibles a los campos armonizados correspondientes.
 * Para los datos de evento, puede asignar individualmente uno o más campos armonizados a campos del conjunto de datos, directamente o mediante condiciones.
@@ -37,7 +54,7 @@ Las reglas del conjunto de datos le ayudan a asignar los campos armonizados con 
 
 ## Administrar reglas de conjuntos de datos
 
-Para ver una tabla de las reglas de conjuntos de datos disponibles, en la interfaz de Mix Modeler:
+Para ver una tabla de las reglas de conjuntos de datos disponibles, en la interfaz de Marketing Campaign Analytics:
 
 1. Seleccione ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** en el carril izquierdo.
 
@@ -69,7 +86,7 @@ Las columnas de la tabla especifican detalles sobre las reglas del conjunto de d
 
 ### Crear una regla de conjunto de datos
 
-Para crear una regla de conjunto de datos, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** de Mix Modeler, seleccione **[!UICONTROL Create a dataset rule]** en el asistente **[!UICONTROL Dataset rules configuration]**.
+Para crear una regla de conjunto de datos, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** de Marketing Campaign Analytics, seleccione **[!UICONTROL Create a dataset rule]** en el asistente **[!UICONTROL Dataset rules configuration]**.
 
 En la pantalla **[!UICONTROL Create]**,
 
@@ -83,7 +100,7 @@ En la pantalla **[!UICONTROL Create]**,
 
    Los datos de informes de los editores son muy importantes para los analistas de marketing, ya que trabajar con editores suele implicar un gasto significativo y los cambios en los datos de informes pueden dar como resultado perspectivas y planes de inversión muy diferentes. Además, los analistas de marketing necesitan datos precisos para obtener las perspectivas correctas y presentar propuestas convincentes para ganar la confianza de los interesados. Sin embargo, estos editores, como Google y Facebook, suelen reiterar o eliminar los datos de los informes a medida que concilian sus datos. El lapso de tiempo para la mayoría de los cambios es de 7 días desde el rendimiento de los medios informado. Es posible realizar cambios adicionales en los datos en un plazo de 30 días. En general, después de 30 días, los libros se consideran cerrados y los datos completos.
 
-   Mix Modeler admite la reafirmación de datos. Garantizar que los datos utilizados para la creación de informes, el modelado y la planificación sean precisos. Y que los datos puedan satisfacer las expectativas y necesidades de los analistas de marketing y de marca.
+   Marketing Campaign Analytics admite la reafirmación de datos. Garantizar que los datos utilizados para la creación de informes, el modelado y la planificación sean precisos. Y que los datos puedan satisfacer las expectativas y necesidades de los analistas de marketing y de marca.
 
    Puede enviar filas restauradas de datos de resumen como filas incrementales en un conjunto de datos de Experience Platform y el servicio de armonización actualiza el conjunto de datos armonizado con esos datos restaurados. Del mismo modo, también puede eliminar filas de datos de resumen que deban reflejarse en el servicio de armonización.
 
@@ -93,17 +110,17 @@ En la pantalla **[!UICONTROL Create]**,
 
      1. Seleccione **[!UICONTROL Count]** o **[!UICONTROL Sum]** de **[!UICONTROL Mapping type]**.
 
-     1. Seleccione un **[!UICONTROL *campo del conjunto de datos de AEP *]**&#x200B;al que desee que se asigne el campo armonizado de forma predeterminada.
+     1. Seleccione un **[!UICONTROL *campo del conjunto de datos de AEP *]**al que desee que se asigne el campo armonizado de forma predeterminada.
 
    * Cuando el campo seleccionado es de tipo dimensión:
 
      1. Seleccione **[!UICONTROL Map Into]** o **[!UICONTROL Case]** de **[!UICONTROL Mapping type]**.
 
-     1. Cuando haya seleccionado **[!UICONTROL Map Into]**, seleccione **[!UICONTROL Field]** y **[!UICONTROL *campo del conjunto de datos de AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;y un valor predeterminado para asignar el campo armonizado de forma predeterminada al campo del conjunto de datos o al valor introducido.
+     1. Cuando haya seleccionado **[!UICONTROL Map Into]**, seleccione **[!UICONTROL Field]** y **[!UICONTROL *campo del conjunto de datos de AEP *]**o **[!UICONTROL Value]**y un valor predeterminado para asignar el campo armonizado de forma predeterminada al campo del conjunto de datos o al valor introducido.
 
-     1. Cuando seleccione **[!UICONTROL Case]**, seleccione **[!UICONTROL Field]** y **[!UICONTROL *campo del conjunto de datos de AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;y un valor predeterminado para asignar el campo armonizado de forma predeterminada al campo del conjunto de datos o al valor introducido.
+     1. Cuando seleccione **[!UICONTROL Case]**, seleccione **[!UICONTROL Field]** y **[!UICONTROL *campo del conjunto de datos de AEP *]**o **[!UICONTROL Value]**y un valor predeterminado para asignar el campo armonizado de forma predeterminada al campo del conjunto de datos o al valor introducido.
 
-        1. Para establecer valores de forma explícita, defina uno o más casos, que consten de una o más condiciones. Cada condición puede comprobar si hay un campo específico del **[!UICONTROL *conjunto de datos de AEP *]**&#x200B;que sea **[!UICONTROL Exists]**&#x200B;o **[!UICONTROL Not Exists]**, o si es **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;o **[!UICONTROL Ends With]**&#x200B;un valor introducido en&#x200B;**[!UICONTROL * Introducir valor de entrada *]**.
+        1. Para establecer valores de forma explícita, defina uno o más casos, que consten de una o más condiciones. Cada condición puede comprobar si hay un campo específico del **[!UICONTROL *conjunto de datos de AEP *]**que sea **[!UICONTROL Exists]**o **[!UICONTROL Not Exists]**, o si es **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**o **[!UICONTROL Ends With]**un valor introducido en**[!UICONTROL * Introducir valor de entrada *]**.
 
         1. Para agregar otro caso, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**, para agregar otra condición, seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -135,7 +152,7 @@ Cuando termine, seleccione **[!UICONTROL Save as draft]** para guardar una versi
 
 #### Conjuntos de datos de resumen
 
-Al asignar un campo armonizado estándar desde un conjunto de datos de resumen, Mix Modeler intenta deducir el campo del conjunto de datos de Experience Platform correspondiente. Si se realiza correctamente:
+Al asignar un campo armonizado estándar desde un conjunto de datos de resumen, Marketing Campaign Analytics intenta deducir el campo del conjunto de datos de Experience Platform correspondiente. Si se realiza correctamente:
 
 * Si el campo es de tipo dimensión, **[!UICONTROL Map into]** está seleccionado como **[!UICONTROL Mapping type]**.
 * Si el campo es del tipo métrica, **[!UICONTROL Sum]** está seleccionado como **[!UICONTROL Mapping type]**.
@@ -212,7 +229,7 @@ Para el campo armonizado **[!UICONTROL Factor value]**, utilice uno de los opera
 
 ### Editar una regla de conjunto de datos
 
-Para editar una regla del conjunto de datos, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** de Mix Modeler:
+Para editar una regla del conjunto de datos, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** de Marketing Campaign Analytics:
 
 1. Seleccione ![Más](/help/assets/icons/More.svg) en la columna **[!UICONTROL Dataset]** para la regla del conjunto de datos que desee editar.
 1. En el menú contextual, seleccione ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** para comenzar a editar la regla del conjunto de datos. Consulte [Crear una regla de conjunto de datos](#create-a-dataset-rule) para obtener más información.
@@ -220,7 +237,7 @@ Para editar una regla del conjunto de datos, en la interfaz ![DataSearch](/help/
 
 ### Eliminar una regla del conjunto de datos
 
-Para eliminar una regla del conjunto de datos, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** de Mix Modeler:
+Para eliminar una regla del conjunto de datos, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** de Marketing Campaign Analytics:
 
 1. Seleccione ![Más](/help/assets/icons/More.svg) en la columna **[!UICONTROL Dataset]** para la regla del conjunto de datos que desee eliminar.
 1. En el menú contextual, seleccione ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para eliminar la regla del conjunto de datos. Se le pedirá confirmación. Seleccione **[!UICONTROL Delete]** para eliminar de forma permanente la regla del conjunto de datos seleccionado.

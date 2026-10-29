@@ -1,28 +1,34 @@
 ---
 title: Campos armonizados
-description: Aprenda a definir campos que utilizar como parte de la armonización de los datos en Mix Modeler.
+description: Aprenda a definir campos que utilizar como parte de la armonización de los datos en Marketing Campaign Analytics.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-TQID: https://experienceleague.adobe.com/NlB6aA4AO-0Tpbb9SibgUz0eVUgs8roO9Mju2M8tl7s
+autotag-review: '2026-05-01T09:13:17.577Z'
+TQID: 'https://experienceleague.adobe.com/ZmBwgBCVOPCVJ1pdniya3RvjWagTQuLSQoxluuDQLbc'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
 subfeature_v2:
   - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+    internal-label: Dataset mapping
   - id: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49
+    internal-label: Harmonized fields
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T09:13:17.577Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 688
+source-wordcount: '694'
 ht-degree: 11%
-
 ---
-
 # Campos armonizados
+
+{{mm-mca-rebranding}}
 
 Los campos armonizados permiten definir campos para datos conceptualmente iguales, procedentes de diferentes fuentes, cada uno con su propia definición de esos datos. Por ejemplo, una métrica de clics puede definirse y denominarse de forma diferente en función del origen de los datos. Un campo armonizado de clics le permite definir una nomenclatura común para una métrica de clics basada en esas diferentes fuentes de datos de clics.
 
@@ -30,7 +36,7 @@ Los campos armonizados permiten definir los campos que desea utilizar como parte
 
 ## Campos de armonización global
 
-Los campos de armonización global predeterminados disponibles en Mix Modeler son los siguientes:
+Los campos de armonización global predeterminados disponibles en Marketing Campaign Analytics son los siguientes:
 
 
 | Nombre del campo | Nombre para mostrar | Categoría | Tipo de datos | Comentario |
@@ -65,7 +71,7 @@ Puede añadir, editar o eliminar sus propios campos armonizados sobre estos camp
 
 ## Administrar campos armonizados
 
-Para ver una tabla de los campos armonizados disponibles, en la interfaz de Mix Modeler:
+Para ver una tabla de los campos armonizados disponibles, en la interfaz de Marketing Campaign Analytics:
 
 1. Seleccione ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** en el carril izquierdo.
 
@@ -91,7 +97,7 @@ Para ver una tabla de los campos armonizados disponibles, en la interfaz de Mix 
 
 ### Añadir un campo armonizado
 
-Para agregar un campo armonizado, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** de Mix Modeler:
+Para agregar un campo armonizado, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** de Marketing Campaign Analytics:
 
 1. Seleccione ![Agregar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
@@ -117,7 +123,7 @@ Para agregar un campo armonizado, en la interfaz ![DataSearch](/help/assets/icon
 
 Solo puede editar campos armonizados creados anteriormente (el propietario es el cliente). No se puede editar un campo armonizado global.
 
-Para editar un campo armonizado, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** de Mix Modeler:
+Para editar un campo armonizado, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** de Marketing Campaign Analytics:
 
 1. Seleccione el campo armonizado que desea editar. Por ejemplo, **[!UICONTROL Region]**.
 
@@ -131,7 +137,7 @@ Para editar un campo armonizado, en la interfaz ![DataSearch](/help/assets/icons
 
 Solo puede eliminar los campos armonizados que haya creado anteriormente (el propietario es el cliente). No se puede eliminar un campo armonizado global.
 
-Para eliminar un campo armonizado, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** de Mix Modeler:
+Para eliminar un campo armonizado, en la interfaz ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** de Marketing Campaign Analytics:
 
 1. Seleccione el campo armonizado que desea eliminar, por ejemplo **[!UICONTROL Region]**.
 

@@ -1,13 +1,13 @@
 ---
 title: Rendimiento para planificar
-description: Aprenda a utilizar la información general Rendimiento para planificar en Mix Modeler.
+description: Aprenda a utilizar la información general Rendimiento para planificar en Marketing Campaign Analytics.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
 autotag-review: '2026-05-01T09:20:18.412Z'
-TQID: 'https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU'
+TQID: 'https://experienceleague.adobe.com/wz2IEd-oBB8N-BSAdXMkcz9xS0xn7l4FlRJoBaQcCAw'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
     internal-label: Plans
@@ -29,18 +29,27 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '544'
 ht-degree: 0%
 ---
 # Rendimiento para planificar
 
+{{mm-mca-rebranding}}
+
 >[!NOTE]
 >
->La ficha **[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative} de la página de inicio ![Mix Modeler](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** es una característica beta y su funcionalidad está sujeta a cambios. La función está disponible para un número limitado de clientes.
+>La ficha **[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative} de la página de inicio ![Marketing Campaign Analytics](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** es una característica beta y su funcionalidad está sujeta a cambios. La función está disponible para un número limitado de clientes.
 
-La ficha **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} de la página de inicio ![Mix Modeler](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** proporciona un panel de seguimiento para supervisar el rendimiento de su marketing con respecto al plan. Puede realizar un seguimiento del rendimiento real en comparación con el rendimiento planificado mediante tarjetas de estado y visualizaciones.
+La ficha **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} de la página de inicio ![Marketing Campaign Analytics](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** proporciona un panel de seguimiento para supervisar el rendimiento de su marketing con respecto al plan. Puede realizar un seguimiento del rendimiento real en comparación con el rendimiento planificado mediante tarjetas de estado y visualizaciones.
 
 El tablero le ayuda a identificar brechas, detectar riesgos u oportunidades y realizar ajustes oportunos en sus planes y presupuestos.
 
@@ -93,7 +102,7 @@ Una visualización de líneas que muestra el KPI para el periodo de fecha.
 Para seleccionar otro KPI:
 
 1. Seleccione ![Editar](/help/assets/icons/Edit.svg).
-1. En el cuadro de diálogo **[!UICONTROL KPI status card]**, seleccione un KPI en el menú desplegable **[!UICONTROL KPI]**. Las opciones disponibles son: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI] y [!UICONTROL Spend].
+1. En el cuadro de diálogo **[!UICONTROL KPI status card]**, seleccione un KPI del menú desplegable **[!UICONTROL KPI]**. Las opciones disponibles son: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI] y [!UICONTROL Spend].
 
 
 ## Visualizaciones
@@ -147,7 +156,7 @@ Para editar una visualización:
 
      * Para los planes basados en ROI, las opciones son: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI], [!UICONTROL Spend] y [!UICONTROL Volume].
      * Para planes basados en CPA, las opciones son: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Spend] y [!UICONTROL Volume].
-   * **[!UICONTROL Granularity]**: seleccione **[!UICONTROL date ranges]** o **[!UICONTROL week]** en el menú desplegable **[!UICONTROL Granularity]**.
+   * **[!UICONTROL Granularity]**: seleccione **[!UICONTROL date ranges]** o **[!UICONTROL week]** del menú desplegable **[!UICONTROL Granularity]**.
 
    Verá en **[!UICONTROL Preview]** que los cambios son diferentes de la visualización **[!UICONTROL Current]**.
 

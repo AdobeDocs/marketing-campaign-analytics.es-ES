@@ -1,37 +1,45 @@
 ---
 title: Esquemas
-description: Aprenda a administrar los esquemas necesarios para la ingesta de datos en Mix Modeler.
+description: Aprenda a administrar los esquemas necesarios para la ingesta de datos en Marketing Campaign Analytics.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-TQID: https://experienceleague.adobe.com/E41pnyBetoLPOOulNmKh033myMvfF4bV9A2Xd3FXqcs
+autotag-review: '2026-05-01T08:56:54.552Z'
+TQID: 'https://experienceleague.adobe.com/GS91VDl1bmpHRPKVZTg6j-94nikFXXFHWLhoMoDWaw4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T08:56:54.552Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 613
+source-wordcount: '618'
 ht-degree: 7%
-
 ---
-
 # Esquemas
 
-Para administrar esquemas compatibles con los datos que desea introducir en Experience Platform y utilizar en Mix Modeler:
+{{mm-mca-rebranding}}
 
-1. Vaya a la interfaz de Mix Modeler.
+Para administrar esquemas compatibles con los datos que desea introducir en Experience Platform y utilizar en Marketing Campaign Analytics:
+
+1. Vaya a la interfaz de Marketing Campaign Analytics.
 
 1. Seleccione ![Esquemas](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, debajo de **[!UICONTROL SETUP]**.
 
-Consulte la [descripción general de la interfaz de usuario de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=es) para obtener más información.
+Consulte la [descripción general de la interfaz de usuario de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) para obtener más información.
 
 ## Datos agregados o resumidos
 
-Se recomienda encarecidamente utilizar la clase Métricas de resumen de XDM como base del esquema subyacente a cualquier dato agregado o de resumen que desee introducir en Experience Platform y utilizar en Mix Modeler.
+Se recomienda encarecidamente utilizar la clase Métricas de resumen de XDM como base del esquema subyacente a cualquier dato agregado o de resumen que desee introducir en Experience Platform y utilizar en Marketing Campaign Analytics.
 
 Utilice la clase Métricas de resumen de XDM para:
 
@@ -97,7 +105,7 @@ Un resumen, un factor interno o un conjunto de datos de factor externo puede bas
 
 ## Tipos de datos admitidos
 
-Actualmente, Mix Modeler no admite un subconjunto de tipos de datos de Experience Platform. Se admiten los siguientes tipos de datos básicos (campos), mencionados en [Conceptos básicos de composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es#data-type):
+Actualmente, Marketing Campaign Analytics no admite un subconjunto de tipos de datos de Experience Platform. Se admiten los siguientes tipos de datos básicos (campos), mencionados en [Conceptos básicos de composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type):
 
 - Cadena
 - Número entero
@@ -107,7 +115,7 @@ Actualmente, Mix Modeler no admite un subconjunto de tipos de datos de Experienc
 - Corto
 - Byte
 - Fecha
-- Fecha-hora
+- Fecha y hora
 
 
 >[!MORELIKETHIS]
