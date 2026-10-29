@@ -42,7 +42,7 @@ Para administrar conjuntos de datos que contengan los datos que desea introducir
 
 1. Seleccione ![Datos](/help/assets/icons/Data.svg) **[!UICONTROL Datasets]**, debajo de **[!UICONTROL SETUP]**.
 
-Consulte la [Guía de la interfaz de usuario de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) para obtener más información.
+Consulte la [Guía de la interfaz de usuario de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es) para obtener más información.
 
 >[!MORELIKETHIS]
 >

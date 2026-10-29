@@ -41,7 +41,7 @@ ht-degree: 2%
 
 {{mm-mca-rebranding}}
 
-Una vez que revise el flujo de trabajo para crear un modelo y enviar su configuración, [aplicación de políticas](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) comprueba si hay alguna infracción. Si se produce una infracción de directiva, aparece una ventana emergente que indica que se han infringido una o más directivas. Esta comprobación tiene por objeto garantizar que las operaciones de datos y las acciones de marketing de Experience Platform sean compatibles con las políticas de uso de datos.
+Una vez que revise el flujo de trabajo para crear un modelo y enviar su configuración, [aplicación de políticas](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) comprueba si hay alguna infracción. Si se produce una infracción de directiva, aparece una ventana emergente que indica que se han infringido una o más directivas. Esta comprobación tiene por objeto garantizar que las operaciones de datos y las acciones de marketing de Experience Platform sean compatibles con las políticas de uso de datos.
 
 De forma predeterminada, Marketing Campaign Analytics comprueba las infracciones de las directivas definidas de Adobe asociadas a las siguientes etiquetas y acciones de marketing:
 
@@ -90,7 +90,7 @@ Currently,  Marketing Campaign Analytics does not support all of the data govern
 
 >[!MORELIKETHIS]
 >
->[Información general sobre políticas de uso de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
+>[Información general sobre políticas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/policies/overview)
 >
 >
 
