@@ -165,9 +165,9 @@ Los conceptos clave detrás del modelado de combinaciones de marketing son:
 * **Modelo multiplicativo**: las ventas o las conversiones son el producto de una línea de base y de multiplicadores de medios.
 
   Por lo tanto, en lugar de utilizar un modelo aditivo:
-  *Conversiones semanales = Demanda de línea de base **+**Multiplicador de la búsqueda **+**Multiplicador de la pantalla **+**....*
+  *Conversiones semanales = Demanda de línea de base **+**&#x200B;Multiplicador de la búsqueda **+**&#x200B;Multiplicador de la pantalla **+**....*
 utilizar un modelo multiplicativo:
-  *Conversiones semanales = Demanda de línea de base **x**Multiplicador de búsqueda **x**Multiplicador de pantalla **x**....*
+  *Conversiones semanales = Demanda de línea de base **x**&#x200B;Multiplicador de búsqueda **x**&#x200B;Multiplicador de pantalla **x**....*
 
   O en una fórmula: ** Y = ⨍<sub>BL</sub>(X<sub>factores</sub>;<sub>factores</sub>) x ⨍<sub>S</sub>(X<sub>S</sub>;<sub>S</sub>) x ⨍<sub>D</sub>(X<sub>D</sub>;<sub>D</sub>)*
 
