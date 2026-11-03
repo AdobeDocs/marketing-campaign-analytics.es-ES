@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 1b5be926bcc785602e9f722eae790f630b9564d4
+source-git-commit: 1e187d334357fc2696b7a15796d669f9632b63cb
 workflow-type: tm+mt
 source-wordcount: '2134'
 ht-degree: 8%
@@ -280,11 +280,12 @@ Para programar la puntuación y la formación del modelo:
 
 ### Customer Journey Analytics {#cja}
 
-
 >[!CONTEXTUALHELP]
 >id="model_enable_cja"
 >title="Habilitar Customer Journey Analytics"
 >abstract="Para que los datos de puntuación estén disponibles para informes y análisis en Customer Journey Analytics, habilite esta configuración. Una vez activado, debe eliminar el modelo para desactivar esta configuración."
+
+{{release-limited-testing-section}}
 
 Si tiene derecho a Customer Journey Analytics y ha creado una o más [reglas de conjuntos de datos](/help/harmonize-data/dataset-rules.md) para Marketing Campaign Analytics en una zona protegida concreta:
 
