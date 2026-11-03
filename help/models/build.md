@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 803bbfb863f55ef5d043c1e1592acd8c6d4bab44
+source-git-commit: 1b5be926bcc785602e9f722eae790f630b9564d4
 workflow-type: tm+mt
-source-wordcount: '1903'
-ht-degree: 7%
+source-wordcount: '2134'
+ht-degree: 8%
 ---
 # Modelos de compilación
 
@@ -136,15 +136,15 @@ El modelo se configura en el paso **[!UICONTROL Configure]**. La configuración 
 
    * Para eliminar un conjunto de datos de factor, seleccione ![CrossSize200](/help/assets/icons/CrossSize400.svg).
 
-   * Si el modelo está habilitado para [modelado funnel completo](./overview.md#full-funnel-modeling), debe definir relaciones causales y relaciones causales de factores para los factores que agregue al modelo.
+   * Si el modelo está habilitado para [modelado funnel completo](./overview.md#full-funnel-modeling), debe definir relaciones causales y relaciones causales de factor para los factores que agregue al modelo.
 
      ![Modelo - Paso de factor funnel](../assets/model-factors-dataset-step-funnel.png)
 
-     * Para definir relaciones causales, en la tabla **[!UICONTROL Causal relationship]** s, seleccione ![SelectBox](/help/assets/icons/SelectBox.svg) para cada canal (**[!UICONTROL Source]**) si el KPI de conversión superior (seleccionado como **[!UICONTROL Upper funnel conversion]** en la sección **[!UICONTROL Full funnel modeling]**) y el KPI de conversión inferior (seleccionado como **[!UICONTROL Conversion]** en la sección **[!UICONTROL Conversion goal]**) se ven influidos por el canal.
+     * Para definir relaciones causales, en la tabla **[!UICONTROL Causal relationship]** s, seleccione ![SelectBox](/help/assets/icons/SelectBox.svg) para cada canal (**[!UICONTROL Source]**) para indicar si el canal influye en los KPI de conversión superior e inferior.
 
        Puede seleccionar ![SelectBox](/help/assets/icons/SelectBox.svg) el encabezado de columna para el KPI de conversión superior y el KPI de conversión inferior para definir rápidamente que todos los canales influyen en el KPI.
 
-     * Cuando haya definido factores, defina las relaciones causales de los factores. Para definir las relaciones causales del factor, en la tabla **[!UICONTROL Factor causal relationships]**, seleccione ![SelectBox](/help/assets/icons/SelectBox.svg) para cada factor (**[!UICONTROL Factor]**) si el factor influye en el KPI de conversión superior (seleccionado como **[!UICONTROL Upper funnel conversion]** en la sección **[!UICONTROL Full funnel modeling]**) y en el KPI de conversión inferior (seleccionado como **[!UICONTROL Conversion]** en la sección **[!UICONTROL Conversion goal]**).
+     * Cuando haya definido factores, defina las relaciones causales de los factores. Para definir las relaciones causales del factor, en la tabla **[!UICONTROL Factor causal relationships]**, seleccione ![SelectBox](/help/assets/icons/SelectBox.svg) para cada factor (**[!UICONTROL Factor]**) para indicar si el factor influye en los KPI de conversión superior e inferior.
 
        Puede seleccionar ![SelectBox](/help/assets/icons/SelectBox.svg) el encabezado de columna para el KPI de conversión superior y el KPI de conversión inferior para definir rápidamente que todos los factores influyen en el KPI.
 
@@ -158,7 +158,7 @@ El modelo se configura en el paso **[!UICONTROL Configure]**. La configuración 
    * Para definir la ventana retrospectiva para la funnel superior, escriba un valor entre `1` y `52` en **[!UICONTROL Give contribution credit to touchpoints occurring within]**... **[!UICONTROL weeks prior to the upper funnel conversion]** para **[!UICONTROL Upper funnel]** en la sección **[!UICONTROL Define lookback window]**.
 
 
-1. Para definir la ventana de formación de un modelo, en **[!UICONTROL Define training window]**, seleccione dónde desea que se inicien las conversiones de puntuación.
+1. Para definir la ventana de formación de un modelo, en **[!UICONTROL Define training window]**, seleccione dónde iniciar las conversiones de puntuación.
 
    ![Modelo - Definir ventana de formación](/help/assets/model-define-training-window.png)
 
@@ -195,7 +195,7 @@ En la sección **[!UICONTROL Spend share]**:
 
 * Se recomienda esta configuración, especialmente en los siguientes casos:
   * Un canal no tiene suficientes observaciones (por ejemplo, baja frecuencia de gasto, impresiones o clics).
-  * Está modelando medios puntiagudos pero regulares y potencialmente de alto gasto (como TV para algunas marcas), donde los datos pueden ser dispersos.
+  * Está modelando medios puntiagudos pero regulares y potencialmente de alto gasto (como TV para algunas marcas), donde los datos son escasos.
 
   >[!NOTE]
   >
@@ -234,7 +234,7 @@ En la sección **[!UICONTROL Prior knowledge]**:
 
 En la sección **[!UICONTROL Channel adstock]** puede definir retrospectivas de stock individuales (efectos de arrastre o deterioro) y un retardo (tiempo de respuesta demorado) para cada canal (canal de marketing) que haya definido en su modelo.
 
-Esta configuración de stock de anuncios de canal permite un control detallado sobre cómo los distintos canales de marketing afectan a los resultados empresariales a lo largo del tiempo. Como alternativa, puede utilizar los valores predeterminados del sistema y una configuración única para todos.
+Esta configuración de stock de anuncios de canal permite un control detallado sobre cómo los distintos canales de marketing afectan a los resultados empresariales a lo largo del tiempo. También puede utilizar valores por defecto del sistema y una configuración estándar.
 
 La configuración de canal de anuncios le ayuda a capturar matices específicos del canal. Por ejemplo, el impacto a largo plazo de las campañas de TV, el impacto a corto plazo de la búsqueda de pago o el desfase entre el gasto de los influenciadores y las conversiones observables. Experimente con los parámetros de retardo y retrospectiva de AdStock para generar perspectivas más precisas, personalizadas y fiables. En última instancia, la configuración de un canal y un stock puede dar lugar a asignaciones presupuestarias más precisas y mejores decisiones empresariales.
 
@@ -246,7 +246,7 @@ Para configurar un archivo de canal:
 
 * Para cada canal (**[!UICONTROL Name]**), defina un valor **[!UICONTROL Lag (weeks)]**, un valor **[!UICONTROL Min Lookback (weeks)]** y **[!UICONTROL Max Lookback (weeks)]**. Para cada valor:
 
-  * Use ![Agregar](/help/assets/icons/Add.svg) para aumentar un valor, ![Restar](/help/assets/icons/Subtract.svg) para disminuir un valor o escribir un valor manualmente.
+  * Para aumentar un valor, use ![Agregar](/help/assets/icons/Add.svg); para reducirlo, use ![Restar](/help/assets/icons/Subtract.svg); o escriba un valor manualmente.
 
   El total de semanas de retraso más las semanas de retrospectiva máximas por canal se limita a una octava parte de la ventana de formación configurada. Este límite permite que el modelo disponga de datos suficientes para conocer los efectos del Adstock. Por ejemplo, para una ventana de formación de dos años, el máximo de **[!UICONTROL Lag (weeks)]** y **[!UICONTROL Lookback (weeks)]** para un canal es de 13 semanas. Este límite se impone al definir los valores.
 
@@ -278,6 +278,38 @@ Para programar la puntuación y la formación del modelo:
 1. Seleccione un(a) **[!UICONTROL Training frequency]** del menú desplegable: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** o **[!UICONTROL None]**.
 
 
+### Customer Journey Analytics {#cja}
+
+
+>[!CONTEXTUALHELP]
+>id="model_enable_cja"
+>title="Habilitar Customer Journey Analytics"
+>abstract="Para que los datos de puntuación estén disponibles para informes y análisis en Customer Journey Analytics, habilite esta configuración. Una vez activado, debe eliminar el modelo para desactivar esta configuración."
+
+Si tiene derecho a Customer Journey Analytics y ha creado una o más [reglas de conjuntos de datos](/help/harmonize-data/dataset-rules.md) para Marketing Campaign Analytics en una zona protegida concreta:
+
+* Se crean dos conjuntos de datos de Marketing Campaign Analytics dedicados en su zona protegida de Experience Platform.
+* Se crea una conexión [connection](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/overview) de Customer Journey Analytics con el título **[!UICONTROL Marketing Campaign Analytics Enabled Connection (_sandbox-name _)]**que contiene los conjuntos de datos de Marketing Campaign Analytics dedicados.
+* Se crea una [vista de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/data-views) de Customer Journey Analytics, con el título **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**, basada en la conexión.
+
+Tanto la conexión como la vista de datos son propiedad del sistema. No puede actualizar ni eliminar la conexión o la vista de datos.
+
+Para que los datos de puntuación del modelo estén disponibles para Customer Journey Analytics a través de los conjuntos de datos, la conexión y la vista de datos mencionados anteriormente:
+
+* Seleccione **[!UICONTROL Enable scores for Customer Journey Analytics]**.
+
+  Una vez habilitada esta opción, solo se puede deshabilitar eliminando el modelo.
+
+Para informar y analizar los datos de Marketing Campaign Analytics rápidamente, en un [proyecto del espacio de trabajo](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home) de Customer Journey Analytics:
+
+1. Seleccione **[!UICONTROL Workspace]** > **[!UICONTROL Adobe templates]**.
+1. Seleccione la **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**dedicada como la vista de datos que se utilizará para un proyecto.
+1. Seleccione **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [plantilla](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates).
+   * Seleccione **[!UICONTROL Preview]** para ver una vista previa.
+
+     ![Vista previa de la plantilla Marketing Campaign Analytics](/help/assets/model-cja-enable-template.png)
+   * Seleccione **[!UICONTROL Use template]** para crear un proyecto basado en la plantilla.
+
 ### Campos de informes de perspectivas granulares
 
 La sección **[!UICONTROL Granular insights reporting fields]** utiliza la funcionalidad de informes de incrementalidad granular. Esta funcionalidad le permite seleccionar campos armonizados para desglosar las puntuaciones de incrementalidad de conversión y puntos de contacto.
@@ -286,7 +318,7 @@ La sección **[!UICONTROL Granular insights reporting fields]** utiliza la funci
 
 Estos campos armonizados se definen de modo que se pueda explorar en profundidad el sistema de informes del modelo mediante columnas de informes granulares en lugar de tener que crear modelos separados.
 
-Por ejemplo, crea un modelo centrado en los ingresos, pero también le interesa el rendimiento de las campañas, los tipos de medios, las regiones y las fuentes de tráfico. Sin la funcionalidad de creación de informes de incrementalidad granular, tendría que crear cuatro modelos independientes. Con la funcionalidad de creación de informes de incrementalidad granular, puede desglosar el modelo de ingresos en campañas, tipos de medios, regiones y fuentes de tráfico.
+Por ejemplo, crea un modelo centrado en los ingresos, pero también le interesa el rendimiento de la campaña, el tipo de medio, la región y las fuentes de tráfico. Sin la funcionalidad de creación de informes de incrementalidad granular, debe crear cuatro modelos independientes. Con la funcionalidad de creación de informes de incrementalidad granular, puede desglosar el modelo de ingresos en campañas, tipos de medios, regiones y fuentes de tráfico.
 
 1. Seleccione uno o más campos armonizados de **[!UICONTROL _Seleccionar campos armonizados_]** debajo de **[!UICONTROL Includes]**. Los campos armonizados seleccionados se añaden al panel.
 1. Seleccione **[!UICONTROL *Campo armonizado *]**![CrossSize100](/help/assets/icons/CrossSize100.svg) para quitar un campo armonizado del contenedor con los campos armonizados seleccionados.

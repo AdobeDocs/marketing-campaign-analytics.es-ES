@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 47233296898cdc0329ff7f43f897c65b4c470ee2
+source-git-commit: c75532d37a87f39cb61eabd58333b39895cf3a69
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1329'
 ht-degree: 0%
 ---
 # Información general de modelos
@@ -49,7 +49,7 @@ La funcionalidad de modelo de Marketing Campaign Analytics le permite configurar
 
 Los modelos se basan en los datos armonizados que crea como parte del flujo de trabajo de la solicitud.
 
-Un modelo en Marketing Campaign Analytics es un modelo de aprendizaje automático empleado para medir y predecir un resultado especificado en función de las inversiones de un experto en marketing. Se pueden utilizar puntos de contacto de marketing y datos de nivel de resumen como entrada. Marketing Campaign Analytics le permite crear variantes de modelos basadas en diferentes conjuntos de variables, dimensiones y resultados, como ingresos, unidades vendidas o posibles clientes.
+Un modelo en Marketing Campaign Analytics es un modelo de aprendizaje automático empleado para medir y predecir un resultado especificado en función de las inversiones de marketing. Se pueden utilizar puntos de contacto de marketing y datos de nivel de resumen como entrada. Marketing Campaign Analytics le permite crear variantes de modelos basadas en diferentes conjuntos de variables, dimensiones y resultados, como ingresos, unidades vendidas o posibles clientes.
 
 Un modelo requiere:
 
@@ -62,10 +62,10 @@ Un modelo puede incluir de forma opcional:
 
 * Factores externos.
 * Factores internos.
-* Conocimiento previo de las contribuciones de marketing de otras fuentes, como la experiencia previa de las partes interesadas, las pruebas graduales y otros modelos.
+* Conocimiento previo de las contribuciones de marketing de otras fuentes, como la experiencia previa de las partes interesadas, las pruebas incrementales u otros modelos.
 * Porcentaje de gasto, que utiliza el porcentaje de gasto relativo como proxy cuando los datos de marketing son escasos.
 
-Cuando se crea un modelo por primera vez, la creación inicia inmediatamente el proceso de formación y puntuación. Una vez finalizada la formación inicial y la ejecución de puntuación, las perspectivas del modelo están disponibles para su revisión. Posteriormente, un modelo puede volver a recibir formación. Además, se pueden añadir datos al modelo, lo que requiere que vuelva a puntuar el modelo manualmente. La recapacitación y el rescoring son un proceso iterativo a medida que surgen nuevos hallazgos e información, y se necesitan ajustes para obtener un modelo de ajuste que sea más apropiado para sus objetivos comerciales.
+Cuando se crea un modelo por primera vez, la creación inicia inmediatamente el proceso de formación y puntuación. Una vez finalizada la formación inicial y la ejecución de puntuación, las perspectivas del modelo están disponibles para su revisión. Posteriormente, se vuelve a entrenar a un modelo. Además, cuando se añaden datos al modelo, se requiere una nueva puntuación manual del modelo. La recapacitación y el rescoring son un proceso iterativo a medida que surgen nuevos hallazgos e información, y se necesitan ajustes para obtener un modelo de ajuste que sea más apropiado para sus objetivos comerciales.
 
 ## Modelado funnel completo
 
@@ -75,13 +75,13 @@ El modelado completo de funnel le permite modelar las etapas reales de su funnel
 
 El modelado completo de funnel se utiliza para modelar en un KPI de funnel superior junto con un KPI de funnel inferior.
 
-* Algunos ejemplos de los KPI superiores de funnel son las suscripciones a boletines informativos y otras métricas de imagen de marca.
+* Algunos ejemplos de los KPI de funnel superiores son las suscripciones a boletines informativos y otras métricas de imagen de marca.
 * Algunos ejemplos de métricas de funnel más bajas son las métricas de conversión habituales, como los ingresos y los pedidos.
 
 Las tácticas de funnel superiores a menudo obtienen menos crédito en un modelo de MMM centrado en la conversión. El modelado funnel completo le ayuda a comprender:
 
 * Qué tácticas de medios y marketing contribuyeron al objetivo superior de funnel.
-* Qué tácticas de marketing y medios generaron un impacto indirecto en el objetivo de conversión. Los pesos superiores del modelo de funnel son una entrada al modelo inferior de funnel para dar un mayor peso a las tácticas de medios y marketing donde sea relevante.
+* Qué tácticas de marketing y medios generaron un impacto indirecto en el objetivo de conversión. Las ponderaciones del modelo funnel superior son una entrada al modelo funnel inferior para dar mayor peso a las tácticas de medios y marketing donde sea relevante.
 
 ## Modelos de compilación
 
@@ -108,7 +108,7 @@ Para ver una tabla de los modelos actuales, en la interfaz de Marketing Campaign
 
    Para ordenar la tabla en cualquier columna en orden ascendente ![ArrowMoveUpS2](/help/assets/icons2/ArrowMoveUp.svg) o descendente ![ArrowMoveDownS2](/help/assets/icons2/ArrowMoveDown.svg), seleccione el título de la columna.
 
-   Para ordenar o cambiar el tamaño de la columna **[!UICONTROL Name]**, seleccione **[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg). En el menú contextual, seleccione **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** o **[!UICONTROL Resize column]**. También puede situarse sobre el separador de columnas para cambiar el tamaño de la columna **[!UICONTROL Name]**.
+   Para ordenar o cambiar el tamaño de la columna **[!UICONTROL Name]**, seleccione **[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg). En el menú contextual, seleccione **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** o **[!UICONTROL Resize column]**. Para cambiar el tamaño de la columna **[!UICONTROL Name]**, pase el ratón sobre el separador de columnas.
 
    El estado del modelo del que se informa depende de dónde se encuentre un modelo dentro de su ciclo de vida. Por ejemplo, si un modelo se ha creado, si se ha vuelto a entrenar correctamente o no, o si se ha marcado o no correctamente.
 
@@ -170,7 +170,7 @@ Puede duplicar rápidamente un modelo.
 
 1. Seleccione ![Más](/help/assets/icons/More.svg) para un modelo y, en el menú contextual, seleccione **[!UICONTROL Duplicate]**.
 
-Se le redirigirá a los pasos para crear un nuevo modelo, con un nombre propuesto compuesto por el nombre del modelo original anexado con **[!UICONTROL (Copy)] (_n_)**.
+Se le redirigirá a los pasos para crear un nuevo modelo, con un nombre propuesto compuesto por el nombre del modelo original anexado con **[!UICONTROL (Copy)](_n_)**.
 
 ### Editar
 
@@ -195,6 +195,12 @@ Puede editar el nombre, la descripción y la programación de la formación y la
         * **[!UICONTROL Monthly]**: seleccione un día del mes en el menú desplegable Ejecutar en cada e introduzca una hora válida (por ejemplo, `10:00 am`) o use ![Reloj](/help/assets/icons/Clock.svg) para definir la hora.
 
      1. Seleccione un(a) **[!UICONTROL Training frequency]** del menú desplegable: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** o **[!UICONTROL None]**.
+
+   * Si el modelo funnel completo está habilitado, se puede ver la atribución Enable full funnel deshabilitada. No puede modificar esta configuración.
+
+   * Para [poner los datos de puntuación a disposición de Customer Journey Analytics](build.md#customer-journey-analytics), seleccione **[!UICONTROL Enable scores for Customer Journey Analytics]**.
+
+     Una vez habilitadas las puntuaciones para Customer Journey Analytics, no puede deshabilitar esta configuración a menos que se elimine el modelo.
 
    * Para actualizar los [campos granulares de informes de perspectivas](/help/models/build.md#granular-insights-reporting-fields), en la sección **[!UICONTROL Granular Insights Reporting Fields]**:
      1. Seleccione uno o más campos armonizados de **[!UICONTROL _Seleccionar campos armonizados_]** debajo de **[!UICONTROL Includes]**. Los campos armonizados seleccionados se añaden al panel.
@@ -228,5 +234,5 @@ Para eliminar varios modelos:
 
 1. Seleccione varios modelos.
 1. En la barra de acciones azul, seleccione ![Eliminar](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para eliminar los modelos.
-1. Seleccione **[!UICONTROL Delete]** en el cuadro de diálogo de confirmación de **[!UICONTROL Delete *x *modelos]**&#x200B;para eliminar los modelos. Seleccione **[!UICONTROL Cancel]**&#x200B;para cancelar.
+1. Seleccione **[!UICONTROL Delete]** en el cuadro de diálogo de confirmación de **[!UICONTROL Delete *x *modelos]**para eliminar los modelos. Seleccione **[!UICONTROL Cancel]**para cancelar.
 
