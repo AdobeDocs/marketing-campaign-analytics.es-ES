@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 1b5be926bcc785602e9f722eae790f630b9564d4
+source-git-commit: 1e187d334357fc2696b7a15796d669f9632b63cb
 workflow-type: tm+mt
 source-wordcount: '2134'
 ht-degree: 8%
@@ -280,16 +280,17 @@ Para programar la puntuación y la formación del modelo:
 
 ### Customer Journey Analytics {#cja}
 
-
 >[!CONTEXTUALHELP]
 >id="model_enable_cja"
 >title="Habilitar Customer Journey Analytics"
 >abstract="Para que los datos de puntuación estén disponibles para informes y análisis en Customer Journey Analytics, habilite esta configuración. Una vez activado, debe eliminar el modelo para desactivar esta configuración."
 
+{{release-limited-testing-section}}
+
 Si tiene derecho a Customer Journey Analytics y ha creado una o más [reglas de conjuntos de datos](/help/harmonize-data/dataset-rules.md) para Marketing Campaign Analytics en una zona protegida concreta:
 
 * Se crean dos conjuntos de datos de Marketing Campaign Analytics dedicados en su zona protegida de Experience Platform.
-* Se crea una conexión [connection](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/overview) de Customer Journey Analytics con el título **[!UICONTROL Marketing Campaign Analytics Enabled Connection (_sandbox-name _)]**&#x200B;que contiene los conjuntos de datos de Marketing Campaign Analytics dedicados.
+* Se crea una conexión [connection](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/overview) de Customer Journey Analytics con el título **[!UICONTROL Marketing Campaign Analytics Enabled Connection (_sandbox-name _)]**que contiene los conjuntos de datos de Marketing Campaign Analytics dedicados.
 * Se crea una [vista de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/data-views) de Customer Journey Analytics, con el título **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**, basada en la conexión.
 
 Tanto la conexión como la vista de datos son propiedad del sistema. No puede actualizar ni eliminar la conexión o la vista de datos.
@@ -303,8 +304,8 @@ Para que los datos de puntuación del modelo estén disponibles para Customer Jo
 Para informar y analizar los datos de Marketing Campaign Analytics rápidamente, en un [proyecto del espacio de trabajo](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home) de Customer Journey Analytics:
 
 1. Seleccione **[!UICONTROL Workspace]** > **[!UICONTROL Adobe templates]**.
-1. Seleccione la **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**&#x200B;dedicada como la vista de datos que se utilizará para un proyecto.
-1. Seleccione **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [plantilla](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates).
+1. Seleccione la **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**dedicada como la vista de datos que se utilizará para un proyecto.
+1. Seleccione **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [plantilla](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates).
    * Seleccione **[!UICONTROL Preview]** para ver una vista previa.
 
      ![Vista previa de la plantilla Marketing Campaign Analytics](/help/assets/model-cja-enable-template.png)
