@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 47233296898cdc0329ff7f43f897c65b4c470ee2
+source-git-commit: 5dfbd7542422d93969c2ffe44475d847693e8910
 workflow-type: tm+mt
-source-wordcount: '3099'
+source-wordcount: '3122'
 ht-degree: 10%
 ---
 # Datos del modelo
@@ -154,6 +154,8 @@ Si [modelado funnel completo](./overview.md#full-funnel-modeling) está habilita
 >[!ENDTABS]
 
 Pase el ratón sobre cualquier flujo para ver una ventana emergente con más detalles para el flujo de funnel específico.
+
+El canal asociado con la conversión de funnel superior seleccionada (según se define en [Conversiones](/help/harmonize-data/conversions.md)) se muestra en el centro de la visualización (por ejemplo: **[!UICONTROL Store]**).
 
 ### Desglose por punto de contacto
 
